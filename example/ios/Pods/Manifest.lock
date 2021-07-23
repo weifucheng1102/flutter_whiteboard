@@ -1,0 +1,57 @@
+PODS:
+  - dsBridge (3.0.6)
+  - Flutter (1.0.0)
+  - flutter_whiteboard (0.0.1):
+    - Flutter
+    - Whiteboard
+  - Whiteboard (2.13.15):
+    - Whiteboard/Base (= 2.13.15)
+    - Whiteboard/Converter (= 2.13.15)
+    - Whiteboard/Model (= 2.13.15)
+    - Whiteboard/NativeReplayer (= 2.13.15)
+    - Whiteboard/Object (= 2.13.15)
+    - Whiteboard/Replayer (= 2.13.15)
+    - Whiteboard/Room (= 2.13.15)
+  - Whiteboard/Base (2.13.15):
+    - dsBridge (~> 3.0.2)
+    - Whiteboard/Object
+  - Whiteboard/Converter (2.13.15):
+    - Whiteboard/Object
+  - Whiteboard/Model (2.13.15):
+    - YYModel (~> 1.0.4)
+  - Whiteboard/NativeReplayer (2.13.15):
+    - Whiteboard/Replayer
+  - Whiteboard/Object (2.13.15):
+    - Whiteboard/Model
+  - Whiteboard/Replayer (2.13.15):
+    - Whiteboard/Base
+  - Whiteboard/Room (2.13.15):
+    - Whiteboard/Base
+  - YYModel (1.0.4)
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - flutter_whiteboard (from `.symlinks/plugins/flutter_whiteboard/ios`)
+
+SPEC REPOS:
+  trunk:
+    - dsBridge
+    - Whiteboard
+    - YYModel
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  flutter_whiteboard:
+    :path: ".symlinks/plugins/flutter_whiteboard/ios"
+
+SPEC CHECKSUMS:
+  dsBridge: 48b62ee8a411ad601a88d6f6c8cf6cb634b206b7
+  Flutter: 434fef37c0980e73bb6479ef766c45957d4b510c
+  flutter_whiteboard: 03e6b0f0ee952a57857219ba5efea3346edfb206
+  Whiteboard: 9e27fbac19ce21796a4ca8243a9c3e1960aa31b7
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
+
+PODFILE CHECKSUM: 8e679eca47255a8ca8067c4c67aab20e64cb974d
+
+COCOAPODS: 1.10.1

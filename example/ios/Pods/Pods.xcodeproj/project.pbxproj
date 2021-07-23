@@ -1,0 +1,2097 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		1EFDDC32A34D56D411E640A81DCD9E73 /* Flutter */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 94078A06C17E946ADC1F2C06726219E5 /* Build configuration list for PBXAggregateTarget "Flutter" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = Flutter;
+			productName = Flutter;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		030EAA20649BF6FF426CA43FF110BE51 /* WhitePanEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = 62B8F79AA107762CCAD8FEA5024334CC /* WhitePanEvent.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		058A71CC4059BA81FF7D1AB59923C97C /* WhitePlayerConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = A06054594CC4B30B7D8088B6BAB45821 /* WhitePlayerConfig.m */; };
+		073FEFDAFBEEDF71B6BED8C5D4249353 /* WhiteEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = E0C0269CAA5FC8D9362C3A9CE5A46790 /* WhiteEvent.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		093E24BF4D0A00029DC4589320024A99 /* WhiteCombinePlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DB28AF012BA1506EDE5D7E34AB9DB39 /* WhiteCombinePlayer.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		09C174BF7B313A939317A8ECD0834C56 /* WhiteMemberInformation.m in Sources */ = {isa = PBXBuildFile; fileRef = 69D591A8465924CB6BB819B1DA65A9D7 /* WhiteMemberInformation.m */; };
+		0CEA16B423D6275DAAF7A91BB2E2FC1D /* WhiteSDK+Replayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C2C8DD06382AE59E60FE5E1534C67F0 /* WhiteSDK+Replayer.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0DD56FDEA181C442F26D633A83A74D51 /* dsBridge-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EF346C1BCBB8FBF7D21769FCD2420B3B /* dsBridge-dummy.m */; };
+		0F2AC307F4CD07CBDC82F985A02791A1 /* InternalApis.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CA49E7D01616C079857982DDE41C34A /* InternalApis.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		11F669BAA548C417D836BF43BCB86651 /* JSBUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = F9D1A175B4730431C7D2AF6067152243 /* JSBUtil.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		184E9A180C8DA3C9C3BF51B5B30639DF /* WhiteMemberInformation.h in Headers */ = {isa = PBXBuildFile; fileRef = AABCC0641C8A5713FAC2F68E57E98773 /* WhiteMemberInformation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		18954BBCCDA84707E1D9E1598679E2E2 /* flutter_whiteboard-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B226AD19146082F871805412D3EA39C0 /* flutter_whiteboard-dummy.m */; };
+		1F48F53DD3FBDDD828289B338705260B /* runtime.36e3f0da.js in Resources */ = {isa = PBXBuildFile; fileRef = 9299E92F565E8BA98E9BF162964A23D8 /* runtime.36e3f0da.js */; };
+		200022265250BFF69569E53F97A3D2C4 /* WhiteRoomCallbacks.m in Sources */ = {isa = PBXBuildFile; fileRef = B2019183234A437B8932B8C36B7F8E32 /* WhiteRoomCallbacks.m */; };
+		2047EFF3E451FDC0E9ED8827F4AA7C38 /* WhiteCameraState.h in Headers */ = {isa = PBXBuildFile; fileRef = E3A973DFCDB2578D5BFFB93C63992E20 /* WhiteCameraState.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		21F6C6C5200CE5D07689DFC3D538415A /* WhiteCameraBound.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF34CB318977C408758AB1F16023E86 /* WhiteCameraBound.m */; };
+		28E75F9A4B3455D09102919E1A022363 /* 83c92a0 in Resources */ = {isa = PBXBuildFile; fileRef = 92ACDF72451DC7C8290BADD74F2E75BE /* 83c92a0 */; };
+		2C9F0157DEBC1877E04433644E0D3DDD /* WhiteSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = 1267DFE2DC91BC49D57D7230D22B4B3D /* WhiteSDK.m */; };
+		2D61F88E89477DB5C576EA01B964B0D7 /* WhiteRectangleConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B9A6E165D048C35FCA242E04B81EB2B /* WhiteRectangleConfig.m */; };
+		2F1151ACB9FC357148EB9A14496C4D59 /* WhiteVideoView.h in Headers */ = {isa = PBXBuildFile; fileRef = EF5CB2469F4387B4CCA520EA67CE669C /* WhiteVideoView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2F8B30239B1F16EB12B08BC0B3B85DBB /* WhitePlayerTimeInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = B6A56EA5055EB7DD26442F74298A9955 /* WhitePlayerTimeInfo.m */; };
+		30E668EB478A0CD181584A1426BFB8BA /* WhitePptPage.m in Sources */ = {isa = PBXBuildFile; fileRef = E849EF1CA4A851140E0D06F6E78BFF8A /* WhitePptPage.m */; };
+		32AC2D2D85A35FAAEE8477FF9554617D /* WhiteAudioMixerBridge.h in Headers */ = {isa = PBXBuildFile; fileRef = C5F414638F23487219512B45DE6B5863 /* WhiteAudioMixerBridge.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3370D48E2FB138B726DB426C426FC9B3 /* WhiteMemberState.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B0B04850BB6A9B280853BCE55CFEF3F /* WhiteMemberState.m */; };
+		3462A6EB9B8502BA698CE6EA04D0E379 /* main.1413e9a0.css in Resources */ = {isa = PBXBuildFile; fileRef = 3D0A849973D9BF9012D9711753159F56 /* main.1413e9a0.css */; };
+		354AF8D4E6FEDFF5A1E4E29438D62AF3 /* WhitePlayerState.m in Sources */ = {isa = PBXBuildFile; fileRef = 5529578B30A208B5AEE245AAA73D1838 /* WhitePlayerState.m */; };
+		3679662FE9105B4F8C03B0B1D58D1D1E /* WhiteConsts.h in Headers */ = {isa = PBXBuildFile; fileRef = C1BAE6F522EE3E2BC8141E22782276B2 /* WhiteConsts.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		37BDA8B8053D27301DC99F41B605BEC4 /* WhiteConsts.m in Sources */ = {isa = PBXBuildFile; fileRef = B4C0B31ECFD06481AB5AD05270A5BBE6 /* WhiteConsts.m */; };
+		38C4152F55820AE227938E43A608E322 /* WhiteSliderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B98C7E191FD098DD6FB1337C5D3CFC4 /* WhiteSliderView.m */; };
+		3A87AEB4BBF9A7BA43DF9A0223A6549F /* WhiteImageInformation.h in Headers */ = {isa = PBXBuildFile; fileRef = BD3608FD9D20E2FE69256AF3873A0B82 /* WhiteImageInformation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3DB51DCACFFF612A58BF17E7067B5876 /* WhiteConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1D406EF069CEF14E1C7647F3A8FF08 /* WhiteConverter.m */; };
+		4264095CA022381EECA9A622DC07666F /* WhiteRoomMember.m in Sources */ = {isa = PBXBuildFile; fileRef = F14910A9A0C9F0617EF68C948626D60C /* WhiteRoomMember.m */; };
+		442C28917641E38548011CB4F895BCA0 /* Pods-Runner-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0769263DD910C3C79E304E0CD1CE0049 /* Pods-Runner-dummy.m */; };
+		458ACD5A559F6A6D5C5C146BD8EA1E5D /* WhiteCameraConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 1617AB9606B97A37CAE510F82640FC98 /* WhiteCameraConfig.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		48E29C4318FD45F6C9B3E7CAFF14EB3E /* WhiteDisplayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 58EAC6098D8025A3D3D2470313596AED /* WhiteDisplayer.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4A893F13DE3A6632E8733B4B5DF8D025 /* WhiteRoomConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = D350AD215ECB8D89832C2DC1ABF1D245 /* WhiteRoomConfig.m */; };
+		4E9D77005F2765510D638CC61766AC6B /* WhiteRectangleConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = EB055B176729B336A4FA6E9438B767A7 /* WhiteRectangleConfig.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		54653D9B3CC19483E1B0F7B90B32F475 /* InternalApis.m in Sources */ = {isa = PBXBuildFile; fileRef = 4731263CB09189455ED48CA73F9AE35D /* InternalApis.m */; };
+		54AB35085253580D606F74A77C9A8CF5 /* WhiteBoardView+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 85F0F769398A3500489A23EC1F211457 /* WhiteBoardView+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		55DBAABA0991F35DB380EC93B6DD1CA6 /* WhitePptPage.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B27C4656573C3D6DC92924BC11A3C4B /* WhitePptPage.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5A594935DA1EA16A624400DF46EF7720 /* WhiteBroadcastState.m in Sources */ = {isa = PBXBuildFile; fileRef = 33932BE70D9BB706F614ACAF6BC66703 /* WhiteBroadcastState.m */; };
+		5DB911B626A8149D0029896B /* textViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DB911B426A8149D0029896B /* textViewController.h */; };
+		5DB911B726A8149D0029896B /* textViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DB911B526A8149D0029896B /* textViewController.m */; };
+		5E5978974CDDD40269FD09AD779A4409 /* WhiteRoom.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A0F75D224AC0BE89A4C57441D080425 /* WhiteRoom.m */; };
+		5F982ADB18D81DD63F54335B28FFCDE0 /* JSBUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 51A7F19DB50D15B88CCE59A5E5CB8095 /* JSBUtil.m */; };
+		60B4E9DDD4EC123719D1D1A26BFB72C9 /* Whiteboard.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EBF2B54E99C8B04C64428BA4B75D82F /* Whiteboard.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		629068E50FA690A51DD6FF0B6C35A04E /* WhiteEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 33ED2FC05763448E4BBB652BE6A4C233 /* WhiteEvent.m */; };
+		687B10A83AA0BA8CA3D3BE0BBFFF33FC /* YYModel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6760FE8D14CEB0CCA2D210DC6F6A8949 /* YYModel-dummy.m */; };
+		69093F2F24A294BB386BB876007150FE /* WhiteSceneState.h in Headers */ = {isa = PBXBuildFile; fileRef = 71A0D66B34515E2B2C687E87FC8BB796 /* WhiteSceneState.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		699F64A46B1D3F2807A41F269E2BE6C7 /* WhiteBoardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3E6B912480DEF07508C27549D12C85 /* WhiteBoardView.m */; };
+		69D3A50FE22F49A9CDA756378E055D1F /* WhiteRoom+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B28B6393C4A168D364024F1BF0A3FE3 /* WhiteRoom+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6D5B34350E7E2B3F9EA83BE98823588E /* YYModel.h in Headers */ = {isa = PBXBuildFile; fileRef = A8C8DDA5B8C9E4EAD7BB43D9B25E9A93 /* YYModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6DB8F772FB94361C219982B3ED7B7CDD /* dsbridge.h in Headers */ = {isa = PBXBuildFile; fileRef = 335919ACAC505B429EA92C9E6B0821AD /* dsbridge.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6FA41591080FA98E20BC0211AB189B8B /* WhiteSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = F192DB45BB0D481E777DF9C5BB4D4D77 /* WhiteSDK.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7619AC94C37975FBA9056076C4002EBF /* WhiteRoomMember.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EE9756BF1A089FA151E022FF1223A4F /* WhiteRoomMember.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		76EFBE5953C040CD48C6A421E6399092 /* WhiteCameraBound.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FC2618FD7F7BD501E4E04B98077208A /* WhiteCameraBound.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7B023FC1E722988A5EE55A6F2A859963 /* WhiteBroadcastState.h in Headers */ = {isa = PBXBuildFile; fileRef = DFEE0494AC8C149DFAB80221D1BBF3C8 /* WhiteBroadcastState.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7CDFF4FA3AF92DEF5F1274719E1100B8 /* WhiteRoomCallbacks+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 077783D62156D5691FBFDABEA3B954DF /* WhiteRoomCallbacks+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		840BE203927BEA6265A4B1AF458C4808 /* WhiteAudioMixerBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 66C460133E5C0A41AED893AA0D18CC0D /* WhiteAudioMixerBridge.m */; };
+		8534C979DA98E9AE4C5CC2366388D96B /* WhiteSdkConfiguration+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = D8574BC5A8CC7C8929DE5230D3FD4B4E /* WhiteSdkConfiguration+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		86C8EF8BBF79A8ED2078EA2F2222D3C7 /* WhiteDisplayer.m in Sources */ = {isa = PBXBuildFile; fileRef = D8B3F799D2D8D7B85F485DFFE1C90C72 /* WhiteDisplayer.m */; };
+		88FBFC0C79088627E96C213C27F1E883 /* DSCallInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 87220ED1606577757F1E243E446001AC /* DSCallInfo.m */; };
+		892BF466B4DCB7E184EE387EA7B7C62B /* WhiteObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 5663D135DA9800B23E84D263246A85A4 /* WhiteObject.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8E6C421A609D180A524F77AE811AFA7A /* WhiteObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 89E8262DF9D8A7424C0EBDEF2043D485 /* WhiteObject.m */; };
+		91A40339538C950AAA6FFE2059533185 /* flutter_whiteboard-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F3FD7648C3C3D1C305A63C478F554EFA /* flutter_whiteboard-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		91E4A641F7BC3844403F101880D1D20A /* WhiteSliderView.h in Headers */ = {isa = PBXBuildFile; fileRef = B7A689C59FA43548C574F02EABD28611 /* WhiteSliderView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		94C3B18673A69B2798178EF80DFB7A2F /* WhiteSDK+Room.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F144724E326E6C2DF6C98386BF2D97F /* WhiteSDK+Room.m */; };
+		95794A16C8E240A0EF294B024855D0DE /* web-sdk.c6ce11e8.js in Resources */ = {isa = PBXBuildFile; fileRef = E928831E573ECB8BEE0A8406F5E34DEA /* web-sdk.c6ce11e8.js */; };
+		9B47C2ECCDCE7189A931E5D0C90AEB61 /* WhiteGlobalState.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D57CA1A48FF15819136A990068AD956 /* WhiteGlobalState.m */; };
+		9D8002A38AD5692EC112C73B733AA075 /* FlutterWhiteboardPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A14CD6BAFC6C2563DA5AEC5B7122EB7 /* FlutterWhiteboardPlugin.m */; };
+		9D924FEEB6E85C4CE0EF6B2ACC1A23BA /* WhiteBoardView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A955808391E71A9C6DCCDB6A3506241 /* WhiteBoardView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9EFA31261CD67B33FB2EAEF335F707FC /* DWKWebView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5677BDDD5DAAA02662291A591B764BC0 /* DWKWebView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9F5A101CA3A1B5D5AF7E3808AF9DB310 /* WhiteFontFace.h in Headers */ = {isa = PBXBuildFile; fileRef = FCE331C1ECE90A1A5C41BBBC448F2587 /* WhiteFontFace.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9FE4FA547CB57F838C1D76BF53684867 /* WhiteCommonCallbacks.m in Sources */ = {isa = PBXBuildFile; fileRef = 201A31FA011F742495B296155F97FFA5 /* WhiteCommonCallbacks.m */; };
+		A8E9E3B6448DD50F07635287F73A84F4 /* WhitePlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = D2462BF9440F7E7DD22181B68D34B2C4 /* WhitePlayer.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AB94D0A706CC3FDA69AB905E56A1F5E1 /* WhiteSDK+Replayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C0F22DE388999EB8A280FD317E23B61 /* WhiteSDK+Replayer.m */; };
+		ACFA78623664B10161FAD9BD6FA1E472 /* WhiteScene.m in Sources */ = {isa = PBXBuildFile; fileRef = F70D92BA77117A9D474770496603E753 /* WhiteScene.m */; };
+		AD0BAE8398BDD3A760C50FD97FC1106A /* WhiteRoom.h in Headers */ = {isa = PBXBuildFile; fileRef = DB96F36B344B144D351A42F6C84A8331 /* WhiteRoom.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AD438A0BB954B13CFB35A2FC7D6AEF99 /* WhiteMemberState.h in Headers */ = {isa = PBXBuildFile; fileRef = 14719B301F92DB41C49AF90FB814A17E /* WhiteMemberState.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AE3853725E165FA49742611017C6D338 /* WhiteSceneState.m in Sources */ = {isa = PBXBuildFile; fileRef = 25800541D1B15E6FC99A5E26AE5ABB30 /* WhiteSceneState.m */; };
+		AE53CAFAAE658E3ECAB72EB5B3EC1075 /* YYClassInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = A2ED8DE30961F5DB654356C4D0F67AF0 /* YYClassInfo.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AF5AC374B45FAE6EB3379CDF6D6128EE /* WhiteImageInformation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A45D4E5079DB75A2C433F5E6FEDC427 /* WhiteImageInformation.m */; };
+		B0B0DB11F7812666E8352F44AF1CA90E /* WhiteVideoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 73094626A8FE73EFEE9E4C15E2832683 /* WhiteVideoView.m */; };
+		B3EEE724BA6A8E08DEE864416A5F1465 /* NSObject+YYModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 103C284A0F0DE7F1FF5D1BAEFB564305 /* NSObject+YYModel.m */; };
+		B47D22E1D205CC41200B7340B165ACC4 /* main.80ad2f9c.js in Resources */ = {isa = PBXBuildFile; fileRef = 1238D27278B1E7FC91C158BD805D58FD /* main.80ad2f9c.js */; };
+		B7A0DBC630112FD3AB1C24FFB55BE8B7 /* WhitePlayer+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = DB7BAA6D652B84C4CA95CDABD6534C42 /* WhitePlayer+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BA21A6FBA5966F289A40B11EB6AFB91D /* WhiteCameraConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AFB9465241AA67ACA9EC75E8B38A45D /* WhiteCameraConfig.m */; };
+		BAF4F2E224C8D8B9B6B35245A8D8B370 /* DSCallInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = F16AF5B3847E32379743B6E56B221AE0 /* DSCallInfo.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BD4C714B5759D7DD05FEAA49F99B8799 /* WhitePlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AABEC8D91A6302A3DE200114725C7EA /* WhitePlayer.m */; };
+		C31F381C4EA759BA2902E5114CB1FBC0 /* WhiteRoomState.h in Headers */ = {isa = PBXBuildFile; fileRef = 04873E69B24204BBD20E6AAAC5B7E7B7 /* WhiteRoomState.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C31F9BB1DEE8313CEA083F4EE6BDEA6F /* WhiteWebViewInjection.h in Headers */ = {isa = PBXBuildFile; fileRef = 008475478B846525B53E6855F1765390 /* WhiteWebViewInjection.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C6A2838EA59FDBCC4AFA4DFDB0FD442D /* vendor.c6be1bb5.js in Resources */ = {isa = PBXBuildFile; fileRef = 9794A87625DE8E7338A2ED4B1D3331EA /* vendor.c6be1bb5.js */; };
+		C752CA696B113A52FD719862F6A90DD4 /* YYClassInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = B69E879DBAF8CF359EDFCEB6CE3F1369 /* YYClassInfo.m */; };
+		C8A50A56C43F14DA83AC0DD4AC444F45 /* WhiteSDK+Room.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AE28D756B4B8E2FA930CC243623C928 /* WhiteSDK+Room.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C91BAE058E628D823D9209E9FD39CB39 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 97A8F79E9D5DE6ED1B3971D92D94478D /* index.html */; };
+		C95AECA52147D28E642D4935D3D6BAF5 /* WhiteConversionInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = D8C864BF24E20449C1553E084B137B44 /* WhiteConversionInfo.m */; };
+		C96EA3C372B46BA8FD8BFF0DCCC7B6A7 /* DWKWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 17A628987B673266DD98A178ED9971D3 /* DWKWebView.m */; };
+		CD30207E611A75881449CC38D2690364 /* WhiteRoomCallbacks.h in Headers */ = {isa = PBXBuildFile; fileRef = B26BC1D65376CA68AC7DD78B4094ED04 /* WhiteRoomCallbacks.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CED7AFF216E9E29462B7DA613808D237 /* WhiteDisplayerState.m in Sources */ = {isa = PBXBuildFile; fileRef = E1503CF0F7052173CDB79C32B210D4F0 /* WhiteDisplayerState.m */; };
+		CF1C10B549BCF54CE288314E5A5B5224 /* WhiteCameraState.m in Sources */ = {isa = PBXBuildFile; fileRef = 7203AD9858C958CA79B7BE7625A7FD5D /* WhiteCameraState.m */; };
+		CF385D47687D75CF96D5401281A88240 /* WhiteFontFace.m in Sources */ = {isa = PBXBuildFile; fileRef = FF17B50B0A6314F5EF9D00CE7FE0FDDB /* WhiteFontFace.m */; };
+		D02304668CD930E5FC2572A3DE7E5647 /* WhiteScene.h in Headers */ = {isa = PBXBuildFile; fileRef = E54B887FBF32C08058DF1A9C4D897D52 /* WhiteScene.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D12CEFD96385A8BCC277FC28E588A8DE /* WhitePanEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = D2DB9FA84D7D0FAA1F61E4056A0FB3E3 /* WhitePanEvent.m */; };
+		D2237089509D71CC4B6C74B8D786E8CF /* Whiteboard-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 70BF679721071D39CA1377D5E6B189D8 /* Whiteboard-dummy.m */; };
+		D380405D33DA92435288D12E6492206F /* WhitePlayerConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = F673B31DE4531D2B14684D1F5A5F6630 /* WhitePlayerConfig.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D643A5F75CCE69071B17C7682B193500 /* WhitePlayerTimeInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 659071828B9F9EC3292CDAE01CF21896 /* WhitePlayerTimeInfo.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D70357A34883DE10811F507E48706A1D /* WhiteWebViewInjection.m in Sources */ = {isa = PBXBuildFile; fileRef = 904793EA4B06DE0B31592B13C3C7DADB /* WhiteWebViewInjection.m */; };
+		D7064FD312B378ADDDDB577779A92F44 /* vendor.96d82295.css in Resources */ = {isa = PBXBuildFile; fileRef = F6D7D5CF8833D42106D425865DC97B80 /* vendor.96d82295.css */; };
+		DB467A8C4FA7324EBAB66A6D858204A3 /* WhiteSDK+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = C0DA60CD8A8A41D994D59C70FF26E7E1 /* WhiteSDK+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DE5DE8DF92F77FA7A74E7B1DCB95B044 /* WhiteGlobalState.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B619C6AC94D726BBF22E69AA0C11EF2 /* WhiteGlobalState.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E580CDF041CF1A92B2736873FB9B08E8 /* WhiteRoomState.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DC185CA17D035620588997B5CEF572E /* WhiteRoomState.m */; };
+		E8CB607F85AC7F921EEADAE78C248A59 /* WhiteConverter.h in Headers */ = {isa = PBXBuildFile; fileRef = 218A7984EE3BD6C679C4E2CBE9EAE3C5 /* WhiteConverter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E93E333CF32D5EB67D7D776F23AF5996 /* WhiteSdkConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = F928B36C7001D5EDBEC6BD0C31985E20 /* WhiteSdkConfiguration.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EA6F74AA075C34B9690781EE106C089F /* WhiteDisplayerState.h in Headers */ = {isa = PBXBuildFile; fileRef = D90360DCE8D097F9463B712BF4424453 /* WhiteDisplayerState.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EAE42F64130FC322206A4FDFCAE96B39 /* WhitePlayerState.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B7E25DE93C3279BAF4D9EFF794E25EE /* WhitePlayerState.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EB4B2F94006DB6DFE754B3D08DD7240A /* FlutterWhiteboardPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = A49881677D00CAEB51206D1B2FD5D507 /* FlutterWhiteboardPlugin.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EE5005B80BF22C1F458F4228866E2CAC /* WhiteDisplayer+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = E9BA556871E2A203F670315E2A8DB65C /* WhiteDisplayer+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F02721074ACC38F1AC36617D0CE6E596 /* WhiteSdkConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 96AEE69DCA923584959D3059372B660D /* WhiteSdkConfiguration.m */; };
+		F19A9017331FFB58EC18D644BA570457 /* NSObject+YYModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A4DFBA10EB5243122967533394473E4 /* NSObject+YYModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F509FDA104BF24DA254B7C9EDFEAD4C6 /* WhiteCombinePlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = DD96DB6B4C893FC553650DCDAA778DC6 /* WhiteCombinePlayer.m */; };
+		F65AC4CDFAFBF37DE25D5C6F4253166C /* WhiteConversionInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D75CBAA2A617C97A8C946244FA8ED0D /* WhiteConversionInfo.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F88DCD9349F95672428C789B3C10118B /* WhitePlayerEvent+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = CF0785BEFD64AEEAA1E6A2B982B3D6B5 /* WhitePlayerEvent+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FC219DD80B710572061C0478F8E88FEE /* WhiteRoomConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EA6846BEBE7D7B4DBC60E08650C2705 /* WhiteRoomConfig.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FDA219DC5A7FEC1759A29D89CB3029B2 /* WhitePlayerEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = C6606A5281B3076A0692D035A3BD2412 /* WhitePlayerEvent.m */; };
+		FF1842A2CB4D2C19BE908C74147A8B36 /* WhitePlayerEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = F6EB333A8F76FA2283357AA10FF60D18 /* WhitePlayerEvent.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FFC0A36B098066F257EBCE2A0858AB16 /* WhitePlayerConsts.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B5848733217FC69C9843175A035849C /* WhitePlayerConsts.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FFCB5C59C4DD016895535B10EC1ED974 /* WhiteCommonCallbacks.h in Headers */ = {isa = PBXBuildFile; fileRef = 63DD7A276A761EF0BFC4DD9782A63B05 /* WhiteCommonCallbacks.h */; settings = {ATTRIBUTES = (Project, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		330526503A5A13754C8FE683D4B4F54C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A6F633BD0A4B9EF892715BEB76AC948;
+			remoteInfo = dsBridge;
+		};
+		3CFDECB1304D7630BC07059E00580FB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84B44807A12996D487A4A591A481D6A0;
+			remoteInfo = YYModel;
+		};
+		463D6FD4B2056248F115AB1E1D147AA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1EFDDC32A34D56D411E640A81DCD9E73;
+			remoteInfo = Flutter;
+		};
+		59D2B3C36504CA18316980CE7BDB3601 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 887E769F555AF76F514A7276E2BA1CB8;
+			remoteInfo = Whiteboard;
+		};
+		6F72685DA64CACDA35E291F6AA0D3F6F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43A5D519FC12ED0F166AE099C4D79F09;
+			remoteInfo = flutter_whiteboard;
+		};
+		8135096C01869700E04F365D3B5769EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 887E769F555AF76F514A7276E2BA1CB8;
+			remoteInfo = Whiteboard;
+		};
+		81E3D243534AF14A5DC40C62E0FA0526 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0EB9E06B4A4636CA9288D815FC9DBFC5;
+			remoteInfo = "Whiteboard-Whiteboard";
+		};
+		A58A3C5DBEA76235A55A0748C2F17138 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A6F633BD0A4B9EF892715BEB76AC948;
+			remoteInfo = dsBridge;
+		};
+		C5D682A72887ABDAD6B0F3DD4F81AEA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84B44807A12996D487A4A591A481D6A0;
+			remoteInfo = YYModel;
+		};
+		E47BAF791FA1D81EF4F1ECC69D3BF3B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1EFDDC32A34D56D411E640A81DCD9E73;
+			remoteInfo = Flutter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		008475478B846525B53E6855F1765390 /* WhiteWebViewInjection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WhiteWebViewInjection.h; path = Whiteboard/Classes/Displayer/WhiteWebViewInjection.h; sourceTree = "<group>"; };
+		01D2E77E9159662F527732F5B7D50031 /* flutter_whiteboard.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = flutter_whiteboard.podspec; path = ../../../../../../ios/flutter_whiteboard.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		04873E69B24204BBD20E6AAAC5B7E7B7 /* WhiteRoomState.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WhiteRoomState.h; path = Whiteboard/Classes/Room/WhiteRoomState.h; sourceTree = "<group>"; };
+		0769263DD910C3C79E304E0CD1CE0049 /* Pods-Runner-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Runner-dummy.m"; sourceTree = "<group>"; };
+		077783D62156D5691FBFDABEA3B954DF /* WhiteRoomCallbacks+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WhiteRoomCallbacks+Private.h"; path = "Whiteboard/Classes/Room/WhiteRoomCallbacks+Private.h"; sourceTree = "<group>"; };
+		0AE28D756B4B8E2FA930CC243623C928 /* WhiteSDK+Room.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WhiteSDK+Room.h"; path = "Whiteboard/Classes/Room/WhiteSDK+Room.h"; sourceTree = "<group>"; };
+		0AFB9465241AA67ACA9EC75E8B38A45D /* WhiteCameraConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WhiteCameraConfig.m; path = Whiteboard/Classes/Object/WhiteCameraConfig.m; sourceTree = "<group>"; };
+		0C0F22DE388999EB8A280FD317E23B61 /* WhiteSDK+Replayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "WhiteSDK+Replayer.m"; path = "Whiteboard/Classes/Replayer/WhiteSDK+Replayer.m"; sourceTree = "<group>"; };
+		0CA49E7D01616C079857982DDE41C34A /* InternalApis.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = InternalApis.h; path = dsbridge/InternalApis.h; sourceTree = "<group>"; };
+		103C284A0F0DE7F1FF5D1BAEFB564305 /* NSObject+YYModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+YYModel.m"; path = "YYModel/NSObject+YYModel.m"; sourceTree = "<group>"; };
+		1238D27278B1E7FC91C158BD805D58FD /* main.80ad2f9c.js */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.javascript; name = main.80ad2f9c.js; path = Whiteboard/Resource/main.80ad2f9c.js; sourceTree = "<group>"; };
+		1267DFE2DC91BC49D57D7230D22B4B3D /* WhiteSDK.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WhiteSDK.m; path = Whiteboard/Classes/SDK/WhiteSDK.m; sourceTree = "<group>"; };
+		14719B301F92DB41C49AF90FB814A17E /* WhiteMemberState.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WhiteMemberState.h; path = Whiteboard/Classes/Object/WhiteMemberState.h; sourceTree = "<group>"; };
+		1617AB9606B97A37CAE510F82640FC98 /* WhiteCameraConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WhiteCameraConfig.h; path = Whiteboard/Classes/Object/WhiteCameraConfig.h; sourceTree = "<group>"; };
+		17A628987B673266DD98A178ED9971D3 /* DWKWebView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DWKWebView.m; path = dsbridge/DWKWebView.m; sourceTree = "<group>"; };
+		1A955808391E71A9C6DCCDB6A3506241 /* WhiteBoardView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WhiteBoardView.h; path = Whiteboard/Classes/Displayer/WhiteBoardView.h; sourceTree = "<group>"; };
+		1B27C4656573C3D6DC92924BC11A3C4B /* WhitePptPage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WhitePptPage.h; path = Whiteboard/Classes/Object/WhitePptPage.h; sourceTree = "<group>"; };
+		1B619C6AC94D726BBF22E69AA0C11EF2 /* WhiteGlobalState.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WhiteGlobalState.h; path = Whiteboard/Classes/Displayer/WhiteGlobalState.h; sourceTree = "<group>"; };
+		1EBF2B54E99C8B04C64428BA4B75D82F /* Whiteboard.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Whiteboard.h; path = Whiteboard/Classes/Whiteboard.h; sourceTree = "<group>"; };
+		201A31FA011F742495B296155F97FFA5 /* WhiteCommonCallbacks.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WhiteCommonCallbacks.m; path = Whiteboard/Classes/Displayer/WhiteCommonCallbacks.m; sourceTree = "<group>"; };
+		20FB25D3B307FD381C9B5B0DB9E01C42 /* flutter_whiteboard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = flutter_whiteboard.debug.xcconfig; sourceTree = "<group>"; };
+		218A7984EE3BD6C679C4E2CBE9EAE3C5 /* WhiteConverter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WhiteConverter.h; path = Whiteboard/Classes/Converter/WhiteConverter.h; sourceTree = "<group>"; };
+		25800541D1B15E6FC99A5E26AE5ABB30 /* WhiteSceneState.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WhiteSceneState.m; path = Whiteboard/Classes/Object/WhiteSceneState.m; sourceTree = "<group>"; };
+		29D02F98F621FBA870BB08572DBF7172 /* Pods-Runner-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Runner-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2B98C7E191FD098DD6FB1337C5D3CFC4 /* WhiteSliderView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WhiteSliderView.m; path = Whiteboard/Classes/NativeReplayer/WhiteSliderView.m; sourceTree = "<group>"; };
+		31C557913C054EC9CD9FA123920B9854 /* YYModel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YYModel-prefix.pch"; sourceTree = "<group>"; };
+		335919ACAC505B429EA92C9E6B0821AD /* dsbridge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = dsbridge.h; path = dsbridge/dsbridge.h; sourceTree = "<group>"; };
+		33932BE70D9BB706F614ACAF6BC66703 /* WhiteBroadcastState.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WhiteBroadcastState.m; path = Whiteboard/Classes/Room/WhiteBroadcastState.m; sourceTree = "<group>"; };
+		33ED2FC05763448E4BBB652BE6A4C233 /* WhiteEvent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WhiteEvent.m; path = Whiteboard/Classes/Object/WhiteEvent.m; sourceTree = "<group>"; };
+		3AABEC8D91A6302A3DE200114725C7EA /* WhitePlayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WhitePlayer.m; path = Whiteboard/Classes/Replayer/WhitePlayer.m; sourceTree = "<group>"; };
+		3AED2C29F0A9C1AC6BE076E6A322A334 /* dsBridge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = dsBridge.release.xcconfig; sourceTree = "<group>"; };
+		3D0A849973D9BF9012D9711753159F56 /* main.1413e9a0.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = main.1413e9a0.css; path = Whiteboard/Resource/main.1413e9a0.css; sourceTree = "<group>"; };
+		3D40527A090D33E04D34690525F7F739 /* Pods-Runner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Runner.release.xcconfig"; sourceTree = "<group>"; };
+		421D917889CA6286D5A7F4D034D84BFA /* Whiteboard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Whiteboard.release.xcconfig; sourceTree = "<group>"; };
+		4731263CB09189455ED48CA73F9AE35D /* InternalApis.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = InternalApis.m; path = dsbridge/InternalApis.m; sourceTree = "<group>"; };
+		4A45D4E5079DB75A2C433F5E6FEDC427 /* WhiteImageInformation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WhiteImageInformation.m; path = Whiteboard/Classes/Room/WhiteImageInformation.m; sourceTree = "<group>"; };
+		4B28B6393C4A168D364024F1BF0A3FE3 /* WhiteRoom+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WhiteRoom+Private.h"; path = "Whiteboard/Classes/Room/WhiteRoom+Private.h"; sourceTree = "<group>"; };
+		4B3E6B912480DEF07508C27549D12C85 /* WhiteBoardView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WhiteBoardView.m; path = Whiteboard/Classes/Displayer/WhiteBoardView.m; sourceTree = "<group>"; };
+		4B5848733217FC69C9843175A035849C /* WhitePlayerConsts.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WhitePlayerConsts.h; path = Whiteboard/Classes/Replayer/WhitePlayerConsts.h; sourceTree = "<group>"; };
+		4DC185CA17D035620588997B5CEF572E /* WhiteRoomState.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WhiteRoomState.m; path = Whiteboard/Classes/Room/WhiteRoomState.m; sourceTree = "<group>"; };
+		51A7F19DB50D15B88CCE59A5E5CB8095 /* JSBUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSBUtil.m; path = dsbridge/JSBUtil.m; sourceTree = "<group>"; };
+		5529578B30A208B5AEE245AAA73D1838 /* WhitePlayerState.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WhitePlayerState.m; path = Whiteboard/Classes/Replayer/WhitePlayerState.m; sourceTree = "<group>"; };
+		5663D135DA9800B23E84D263246A85A4 /* WhiteObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WhiteObject.h; path = Whiteboard/Classes/Model/WhiteObject.h; sourceTree = "<group>"; };
+		5677BDDD5DAAA02662291A591B764BC0 /* DWKWebView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DWKWebView.h; path = dsbridge/DWKWebView.h; sourceTree = "<group>"; };
+		58EAC6098D8025A3D3D2470313596AED /* WhiteDisplayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WhiteDisplayer.h; path = Whiteboard/Classes/Displayer/WhiteDisplayer.h; sourceTree = "<group>"; };
+		5A14CD6BAFC6C2563DA5AEC5B7122EB7 /* FlutterWhiteboardPlugin.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FlutterWhiteboardPlugin.m; path = ../../../../../../../ios/Classes/FlutterWhiteboardPlugin.m; sourceTree = "<group>"; };
+		5B1D406EF069CEF14E1C7647F3A8FF08 /* WhiteConverter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WhiteConverter.m; path = Whiteboard/Classes/Converter/WhiteConverter.m; sourceTree = "<group>"; };
+		5B7E25DE93C3279BAF4D9EFF794E25EE /* WhitePlayerState.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WhitePlayerState.h; path = Whiteboard/Classes/Replayer/WhitePlayerState.h; sourceTree = "<group>"; };
+		5C2C8DD06382AE59E60FE5E1534C67F0 /* WhiteSDK+Replayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WhiteSDK+Replayer.h"; path = "Whiteboard/Classes/Replayer/WhiteSDK+Replayer.h"; sourceTree = "<group>"; };
+		5DB911B426A8149D0029896B /* textViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = textViewController.h; path = ../../../../../../../ios/Classes/textViewController.h; sourceTree = "<group>"; };
+		5DB911B526A8149D0029896B /* textViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = textViewController.m; path = ../../../../../../../ios/Classes/textViewController.m; sourceTree = "<group>"; };
+		5EA6846BEBE7D7B4DBC60E08650C2705 /* WhiteRoomConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WhiteRoomConfig.h; path = Whiteboard/Classes/Room/WhiteRoomConfig.h; sourceTree = "<group>"; };
+		62B8F79AA107762CCAD8FEA5024334CC /* WhitePanEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WhitePanEvent.h; path = Whiteboard/Classes/Object/WhitePanEvent.h; sourceTree = "<group>"; };
+		63DD7A276A761EF0BFC4DD9782A63B05 /* WhiteCommonCallbacks.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WhiteCommonCallbacks.h; path = Whiteboard/Classes/Displayer/WhiteCommonCallbacks.h; sourceTree = "<group>"; };
+		642BF272E525EFC76B960E03F7FD9645 /* Whiteboard-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Whiteboard-prefix.pch"; sourceTree = "<group>"; };
+		659071828B9F9EC3292CDAE01CF21896 /* WhitePlayerTimeInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WhitePlayerTimeInfo.h; path = Whiteboard/Classes/Replayer/WhitePlayerTimeInfo.h; sourceTree = "<group>"; };
+		669E8F25E1897672BDB80B7EB784DA24 /* libPods-Runner.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Runner.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		66C460133E5C0A41AED893AA0D18CC0D /* WhiteAudioMixerBridge.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WhiteAudioMixerBridge.m; path = Whiteboard/Classes/Displayer/WhiteAudioMixerBridge.m; sourceTree = "<group>"; };
+		6760FE8D14CEB0CCA2D210DC6F6A8949 /* YYModel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YYModel-dummy.m"; sourceTree = "<group>"; };
+		69D591A8465924CB6BB819B1DA65A9D7 /* WhiteMemberInformation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WhiteMemberInformation.m; path = Whiteboard/Classes/Object/WhiteMemberInformation.m; sourceTree = "<group>"; };
+		6A0F75D224AC0BE89A4C57441D080425 /* WhiteRoom.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WhiteRoom.m; path = Whiteboard/Classes/Room/WhiteRoom.m; sourceTree = "<group>"; };
+		6F144724E326E6C2DF6C98386BF2D97F /* WhiteSDK+Room.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "WhiteSDK+Room.m"; path = "Whiteboard/Classes/Room/WhiteSDK+Room.m"; sourceTree = "<group>"; };
+		70BF679721071D39CA1377D5E6B189D8 /* Whiteboard-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Whiteboard-dummy.m"; sourceTree = "<group>"; };
+		71A0D66B34515E2B2C687E87FC8BB796 /* WhiteSceneState.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WhiteSceneState.h; path = Whiteboard/Classes/Object/WhiteSceneState.h; sourceTree = "<group>"; };
+		7203AD9858C958CA79B7BE7625A7FD5D /* WhiteCameraState.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WhiteCameraState.m; path = Whiteboard/Classes/Object/WhiteCameraState.m; sourceTree = "<group>"; };
+		7221485F463B965F0738B24C79E864C8 /* Flutter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Flutter.debug.xcconfig; sourceTree = "<group>"; };
+		73094626A8FE73EFEE9E4C15E2832683 /* WhiteVideoView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WhiteVideoView.m; path = Whiteboard/Classes/NativeReplayer/WhiteVideoView.m; sourceTree = "<group>"; };
+		797D46A7F1534583458B98BF2BB479A7 /* libdsBridge.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libdsBridge.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D57CA1A48FF15819136A990068AD956 /* WhiteGlobalState.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WhiteGlobalState.m; path = Whiteboard/Classes/Displayer/WhiteGlobalState.m; sourceTree = "<group>"; };
+		7D75CBAA2A617C97A8C946244FA8ED0D /* WhiteConversionInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WhiteConversionInfo.h; path = Whiteboard/Classes/Converter/WhiteConversionInfo.h; sourceTree = "<group>"; };
+		7EE9756BF1A089FA151E022FF1223A4F /* WhiteRoomMember.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WhiteRoomMember.h; path = Whiteboard/Classes/Object/WhiteRoomMember.h; sourceTree = "<group>"; };
+		85F0F769398A3500489A23EC1F211457 /* WhiteBoardView+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WhiteBoardView+Private.h"; path = "Whiteboard/Classes/Displayer/WhiteBoardView+Private.h"; sourceTree = "<group>"; };
+		87220ED1606577757F1E243E446001AC /* DSCallInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DSCallInfo.m; path = dsbridge/DSCallInfo.m; sourceTree = "<group>"; };
+		89E8262DF9D8A7424C0EBDEF2043D485 /* WhiteObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WhiteObject.m; path = Whiteboard/Classes/Model/WhiteObject.m; sourceTree = "<group>"; };
+		8A4DFBA10EB5243122967533394473E4 /* NSObject+YYModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+YYModel.h"; path = "YYModel/NSObject+YYModel.h"; sourceTree = "<group>"; };
+		8B0B04850BB6A9B280853BCE55CFEF3F /* WhiteMemberState.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WhiteMemberState.m; path = Whiteboard/Classes/Object/WhiteMemberState.m; sourceTree = "<group>"; };
+		8B9A6E165D048C35FCA242E04B81EB2B /* WhiteRectangleConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WhiteRectangleConfig.m; path = Whiteboard/Classes/Object/WhiteRectangleConfig.m; sourceTree = "<group>"; };
+		8BE0AC68D711EADFAA4200313EF8A8FC /* flutter_whiteboard.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = flutter_whiteboard.modulemap; sourceTree = "<group>"; };
+		8DB28AF012BA1506EDE5D7E34AB9DB39 /* WhiteCombinePlayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WhiteCombinePlayer.h; path = Whiteboard/Classes/NativeReplayer/WhiteCombinePlayer.h; sourceTree = "<group>"; };
+		9039460E8D3FAD357BF2E7D56AA0D6B2 /* Pods-Runner.profile.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Runner.profile.xcconfig"; sourceTree = "<group>"; };
+		904793EA4B06DE0B31592B13C3C7DADB /* WhiteWebViewInjection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WhiteWebViewInjection.m; path = Whiteboard/Classes/Displayer/WhiteWebViewInjection.m; sourceTree = "<group>"; };
+		9299E92F565E8BA98E9BF162964A23D8 /* runtime.36e3f0da.js */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.javascript; name = runtime.36e3f0da.js; path = Whiteboard/Resource/runtime.36e3f0da.js; sourceTree = "<group>"; };
+		92ACDF72451DC7C8290BADD74F2E75BE /* 83c92a0 */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = 83c92a0; path = Whiteboard/Resource/83c92a0; sourceTree = "<group>"; };
+		96AEE69DCA923584959D3059372B660D /* WhiteSdkConfiguration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WhiteSdkConfiguration.m; path = Whiteboard/Classes/SDK/WhiteSdkConfiguration.m; sourceTree = "<group>"; };
+		9794A87625DE8E7338A2ED4B1D3331EA /* vendor.c6be1bb5.js */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.javascript; name = vendor.c6be1bb5.js; path = Whiteboard/Resource/vendor.c6be1bb5.js; sourceTree = "<group>"; };
+		97A8F79E9D5DE6ED1B3971D92D94478D /* index.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html; name = index.html; path = Whiteboard/Resource/index.html; sourceTree = "<group>"; };
+		9A668F8DBCA17D57ECB790E81DD7BE65 /* Flutter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = Flutter.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9A6D3B1784C82F22825710930DD8BE77 /* Pods-Runner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Runner.debug.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9FC2618FD7F7BD501E4E04B98077208A /* WhiteCameraBound.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WhiteCameraBound.h; path = Whiteboard/Classes/Object/WhiteCameraBound.h; sourceTree = "<group>"; };
+		A06054594CC4B30B7D8088B6BAB45821 /* WhitePlayerConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WhitePlayerConfig.m; path = Whiteboard/Classes/Replayer/WhitePlayerConfig.m; sourceTree = "<group>"; };
+		A2ED8DE30961F5DB654356C4D0F67AF0 /* YYClassInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYClassInfo.h; path = YYModel/YYClassInfo.h; sourceTree = "<group>"; };
+		A49881677D00CAEB51206D1B2FD5D507 /* FlutterWhiteboardPlugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlutterWhiteboardPlugin.h; path = ../../../../../../../ios/Classes/FlutterWhiteboardPlugin.h; sourceTree = "<group>"; };
+		A8C8DDA5B8C9E4EAD7BB43D9B25E9A93 /* YYModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYModel.h; path = YYModel/YYModel.h; sourceTree = "<group>"; };
+		A8DEE7875725022B8828B5E0E0B8A66C /* libflutter_whiteboard.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libflutter_whiteboard.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		AABCC0641C8A5713FAC2F68E57E98773 /* WhiteMemberInformation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WhiteMemberInformation.h; path = Whiteboard/Classes/Object/WhiteMemberInformation.h; sourceTree = "<group>"; };
+		AEAF8D240EFD576AF66907115F24C189 /* Whiteboard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Whiteboard.debug.xcconfig; sourceTree = "<group>"; };
+		B1E0AEF66083C28EEAC82D28AE8B9A37 /* flutter_whiteboard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = flutter_whiteboard.release.xcconfig; sourceTree = "<group>"; };
+		B2019183234A437B8932B8C36B7F8E32 /* WhiteRoomCallbacks.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WhiteRoomCallbacks.m; path = Whiteboard/Classes/Room/WhiteRoomCallbacks.m; sourceTree = "<group>"; };
+		B226AD19146082F871805412D3EA39C0 /* flutter_whiteboard-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "flutter_whiteboard-dummy.m"; sourceTree = "<group>"; };
+		B26BC1D65376CA68AC7DD78B4094ED04 /* WhiteRoomCallbacks.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WhiteRoomCallbacks.h; path = Whiteboard/Classes/Room/WhiteRoomCallbacks.h; sourceTree = "<group>"; };
+		B43929320E40A048DEF21A95905050F2 /* Whiteboard.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Whiteboard.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4975BE4BAC53889465AE0ADD9722488 /* dsBridge-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "dsBridge-prefix.pch"; sourceTree = "<group>"; };
+		B4C0B31ECFD06481AB5AD05270A5BBE6 /* WhiteConsts.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WhiteConsts.m; path = Whiteboard/Classes/Object/WhiteConsts.m; sourceTree = "<group>"; };
+		B69E879DBAF8CF359EDFCEB6CE3F1369 /* YYClassInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYClassInfo.m; path = YYModel/YYClassInfo.m; sourceTree = "<group>"; };
+		B6A56EA5055EB7DD26442F74298A9955 /* WhitePlayerTimeInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WhitePlayerTimeInfo.m; path = Whiteboard/Classes/Replayer/WhitePlayerTimeInfo.m; sourceTree = "<group>"; };
+		B7A689C59FA43548C574F02EABD28611 /* WhiteSliderView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WhiteSliderView.h; path = Whiteboard/Classes/NativeReplayer/WhiteSliderView.h; sourceTree = "<group>"; };
+		BD3608FD9D20E2FE69256AF3873A0B82 /* WhiteImageInformation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WhiteImageInformation.h; path = Whiteboard/Classes/Room/WhiteImageInformation.h; sourceTree = "<group>"; };
+		BF07350E583AF349A194294437B0C06E /* libWhiteboard.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libWhiteboard.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0DA60CD8A8A41D994D59C70FF26E7E1 /* WhiteSDK+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WhiteSDK+Private.h"; path = "Whiteboard/Classes/SDK/WhiteSDK+Private.h"; sourceTree = "<group>"; };
+		C11AB8319AF346CCB598D0BDA754CE09 /* ResourceBundle-Whiteboard-Whiteboard-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-Whiteboard-Whiteboard-Info.plist"; sourceTree = "<group>"; };
+		C1BAE6F522EE3E2BC8141E22782276B2 /* WhiteConsts.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WhiteConsts.h; path = Whiteboard/Classes/Object/WhiteConsts.h; sourceTree = "<group>"; };
+		C5F414638F23487219512B45DE6B5863 /* WhiteAudioMixerBridge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WhiteAudioMixerBridge.h; path = Whiteboard/Classes/Displayer/WhiteAudioMixerBridge.h; sourceTree = "<group>"; };
+		C6606A5281B3076A0692D035A3BD2412 /* WhitePlayerEvent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WhitePlayerEvent.m; path = Whiteboard/Classes/Replayer/WhitePlayerEvent.m; sourceTree = "<group>"; };
+		CCDC137B33A626C23EE59D91FCC82D64 /* YYModel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YYModel.debug.xcconfig; sourceTree = "<group>"; };
+		CF0785BEFD64AEEAA1E6A2B982B3D6B5 /* WhitePlayerEvent+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WhitePlayerEvent+Private.h"; path = "Whiteboard/Classes/Replayer/WhitePlayerEvent+Private.h"; sourceTree = "<group>"; };
+		D2462BF9440F7E7DD22181B68D34B2C4 /* WhitePlayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WhitePlayer.h; path = Whiteboard/Classes/Replayer/WhitePlayer.h; sourceTree = "<group>"; };
+		D26CBA60452B4BFAF8BDB2B93C099C84 /* flutter_whiteboard-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "flutter_whiteboard-prefix.pch"; sourceTree = "<group>"; };
+		D2DB9FA84D7D0FAA1F61E4056A0FB3E3 /* WhitePanEvent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WhitePanEvent.m; path = Whiteboard/Classes/Object/WhitePanEvent.m; sourceTree = "<group>"; };
+		D350AD215ECB8D89832C2DC1ABF1D245 /* WhiteRoomConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WhiteRoomConfig.m; path = Whiteboard/Classes/Room/WhiteRoomConfig.m; sourceTree = "<group>"; };
+		D5BC260794B87AB85799016712139C4D /* Pods-Runner-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Runner-acknowledgements.plist"; sourceTree = "<group>"; };
+		D8574BC5A8CC7C8929DE5230D3FD4B4E /* WhiteSdkConfiguration+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WhiteSdkConfiguration+Private.h"; path = "Whiteboard/Classes/SDK/WhiteSdkConfiguration+Private.h"; sourceTree = "<group>"; };
+		D8B3F799D2D8D7B85F485DFFE1C90C72 /* WhiteDisplayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WhiteDisplayer.m; path = Whiteboard/Classes/Displayer/WhiteDisplayer.m; sourceTree = "<group>"; };
+		D8C864BF24E20449C1553E084B137B44 /* WhiteConversionInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WhiteConversionInfo.m; path = Whiteboard/Classes/Converter/WhiteConversionInfo.m; sourceTree = "<group>"; };
+		D90360DCE8D097F9463B712BF4424453 /* WhiteDisplayerState.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WhiteDisplayerState.h; path = Whiteboard/Classes/Displayer/WhiteDisplayerState.h; sourceTree = "<group>"; };
+		D9C92DCEDC4F59BCCD76A3BDC148E61C /* dsBridge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = dsBridge.debug.xcconfig; sourceTree = "<group>"; };
+		DB7BAA6D652B84C4CA95CDABD6534C42 /* WhitePlayer+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WhitePlayer+Private.h"; path = "Whiteboard/Classes/Replayer/WhitePlayer+Private.h"; sourceTree = "<group>"; };
+		DB96F36B344B144D351A42F6C84A8331 /* WhiteRoom.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WhiteRoom.h; path = Whiteboard/Classes/Room/WhiteRoom.h; sourceTree = "<group>"; };
+		DD96DB6B4C893FC553650DCDAA778DC6 /* WhiteCombinePlayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WhiteCombinePlayer.m; path = Whiteboard/Classes/NativeReplayer/WhiteCombinePlayer.m; sourceTree = "<group>"; };
+		DE53F3C2B63B23A77DD09C3D235D7688 /* Pods-Runner-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Runner-resources.sh"; sourceTree = "<group>"; };
+		DFEE0494AC8C149DFAB80221D1BBF3C8 /* WhiteBroadcastState.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WhiteBroadcastState.h; path = Whiteboard/Classes/Room/WhiteBroadcastState.h; sourceTree = "<group>"; };
+		E0C0269CAA5FC8D9362C3A9CE5A46790 /* WhiteEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WhiteEvent.h; path = Whiteboard/Classes/Object/WhiteEvent.h; sourceTree = "<group>"; };
+		E1503CF0F7052173CDB79C32B210D4F0 /* WhiteDisplayerState.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WhiteDisplayerState.m; path = Whiteboard/Classes/Displayer/WhiteDisplayerState.m; sourceTree = "<group>"; };
+		E31E8358B79E517DC4C42C03710DDB9B /* Flutter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Flutter.release.xcconfig; sourceTree = "<group>"; };
+		E3A973DFCDB2578D5BFFB93C63992E20 /* WhiteCameraState.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WhiteCameraState.h; path = Whiteboard/Classes/Object/WhiteCameraState.h; sourceTree = "<group>"; };
+		E460D5B0416D36F66EE8EC89E5D2FA0A /* libYYModel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libYYModel.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E54B887FBF32C08058DF1A9C4D897D52 /* WhiteScene.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WhiteScene.h; path = Whiteboard/Classes/Object/WhiteScene.h; sourceTree = "<group>"; };
+		E849EF1CA4A851140E0D06F6E78BFF8A /* WhitePptPage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WhitePptPage.m; path = Whiteboard/Classes/Object/WhitePptPage.m; sourceTree = "<group>"; };
+		E928831E573ECB8BEE0A8406F5E34DEA /* web-sdk.c6ce11e8.js */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.javascript; name = "web-sdk.c6ce11e8.js"; path = "Whiteboard/Resource/web-sdk.c6ce11e8.js"; sourceTree = "<group>"; };
+		E9BA556871E2A203F670315E2A8DB65C /* WhiteDisplayer+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WhiteDisplayer+Private.h"; path = "Whiteboard/Classes/Displayer/WhiteDisplayer+Private.h"; sourceTree = "<group>"; };
+		EB055B176729B336A4FA6E9438B767A7 /* WhiteRectangleConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WhiteRectangleConfig.h; path = Whiteboard/Classes/Object/WhiteRectangleConfig.h; sourceTree = "<group>"; };
+		EF2D53F6EF8EF7670EFEA8FA75EB3498 /* YYModel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YYModel.release.xcconfig; sourceTree = "<group>"; };
+		EF346C1BCBB8FBF7D21769FCD2420B3B /* dsBridge-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "dsBridge-dummy.m"; sourceTree = "<group>"; };
+		EF5CB2469F4387B4CCA520EA67CE669C /* WhiteVideoView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WhiteVideoView.h; path = Whiteboard/Classes/NativeReplayer/WhiteVideoView.h; sourceTree = "<group>"; };
+		F14910A9A0C9F0617EF68C948626D60C /* WhiteRoomMember.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WhiteRoomMember.m; path = Whiteboard/Classes/Object/WhiteRoomMember.m; sourceTree = "<group>"; };
+		F16AF5B3847E32379743B6E56B221AE0 /* DSCallInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DSCallInfo.h; path = dsbridge/DSCallInfo.h; sourceTree = "<group>"; };
+		F192DB45BB0D481E777DF9C5BB4D4D77 /* WhiteSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WhiteSDK.h; path = Whiteboard/Classes/SDK/WhiteSDK.h; sourceTree = "<group>"; };
+		F3FD7648C3C3D1C305A63C478F554EFA /* flutter_whiteboard-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "flutter_whiteboard-umbrella.h"; sourceTree = "<group>"; };
+		F673B31DE4531D2B14684D1F5A5F6630 /* WhitePlayerConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WhitePlayerConfig.h; path = Whiteboard/Classes/Replayer/WhitePlayerConfig.h; sourceTree = "<group>"; };
+		F6D7D5CF8833D42106D425865DC97B80 /* vendor.96d82295.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = vendor.96d82295.css; path = Whiteboard/Resource/vendor.96d82295.css; sourceTree = "<group>"; };
+		F6EB333A8F76FA2283357AA10FF60D18 /* WhitePlayerEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WhitePlayerEvent.h; path = Whiteboard/Classes/Replayer/WhitePlayerEvent.h; sourceTree = "<group>"; };
+		F70D92BA77117A9D474770496603E753 /* WhiteScene.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WhiteScene.m; path = Whiteboard/Classes/Object/WhiteScene.m; sourceTree = "<group>"; };
+		F928B36C7001D5EDBEC6BD0C31985E20 /* WhiteSdkConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WhiteSdkConfiguration.h; path = Whiteboard/Classes/SDK/WhiteSdkConfiguration.h; sourceTree = "<group>"; };
+		F9D1A175B4730431C7D2AF6067152243 /* JSBUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSBUtil.h; path = dsbridge/JSBUtil.h; sourceTree = "<group>"; };
+		FAF34CB318977C408758AB1F16023E86 /* WhiteCameraBound.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WhiteCameraBound.m; path = Whiteboard/Classes/Object/WhiteCameraBound.m; sourceTree = "<group>"; };
+		FBFB2BAEAF11CEBE882443A7811A8878 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../../../../../../LICENSE; sourceTree = "<group>"; };
+		FCE331C1ECE90A1A5C41BBBC448F2587 /* WhiteFontFace.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WhiteFontFace.h; path = Whiteboard/Classes/Object/WhiteFontFace.h; sourceTree = "<group>"; };
+		FF17B50B0A6314F5EF9D00CE7FE0FDDB /* WhiteFontFace.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WhiteFontFace.m; path = Whiteboard/Classes/Object/WhiteFontFace.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3DAFE2EB1124B36DDB3D66C2AD9C28B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E54AC9F1738D13081E00331BC30995D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82058CCB4009AA0A36B90B93D06E64E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9FED403DBC8CE01958F87CFB9428D1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF7B80C58926B9D2F20876A9033FE9D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFEEC63F1939759449A1841D88B738CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B6511388B22C9FC80F0B70AFDB7ECE0 /* flutter_whiteboard */ = {
+			isa = PBXGroup;
+			children = (
+				31E7D306A87ACA96EC954BA452E504CE /* ios */,
+			);
+			path = flutter_whiteboard;
+			sourceTree = "<group>";
+		};
+		0D6286116CAD64E94C2D9DA945E4FC8D /* Flutter */ = {
+			isa = PBXGroup;
+			children = (
+				19ED53C49B5D84CFF835E8794CA6467F /* Pod */,
+				4D62DE174579BCD5EECC880BEE6363B0 /* Support Files */,
+			);
+			name = Flutter;
+			path = ../Flutter;
+			sourceTree = "<group>";
+		};
+		115A6B1E15CDDB52EDF4BDBF49BF0D5E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6760FE8D14CEB0CCA2D210DC6F6A8949 /* YYModel-dummy.m */,
+				31C557913C054EC9CD9FA123920B9854 /* YYModel-prefix.pch */,
+				CCDC137B33A626C23EE59D91FCC82D64 /* YYModel.debug.xcconfig */,
+				EF2D53F6EF8EF7670EFEA8FA75EB3498 /* YYModel.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/YYModel";
+			sourceTree = "<group>";
+		};
+		11CF2CF96660F590B12A135D1DCA08F6 /* Converter */ = {
+			isa = PBXGroup;
+			children = (
+				7D75CBAA2A617C97A8C946244FA8ED0D /* WhiteConversionInfo.h */,
+				D8C864BF24E20449C1553E084B137B44 /* WhiteConversionInfo.m */,
+				218A7984EE3BD6C679C4E2CBE9EAE3C5 /* WhiteConverter.h */,
+				5B1D406EF069CEF14E1C7647F3A8FF08 /* WhiteConverter.m */,
+			);
+			name = Converter;
+			sourceTree = "<group>";
+		};
+		19ED53C49B5D84CFF835E8794CA6467F /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				9A668F8DBCA17D57ECB790E81DD7BE65 /* Flutter.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		1ABB0931402DFCEA87376F77BBDFE70E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				85B339728DFAABBA5DE8802501E96A07 /* dsBridge */,
+				25ADF4D8D3C00F5C947EE6D7E9338F30 /* Whiteboard */,
+				67D2A28A439062218B83348747E1DF43 /* YYModel */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		25ADF4D8D3C00F5C947EE6D7E9338F30 /* Whiteboard */ = {
+			isa = PBXGroup;
+			children = (
+				1EBF2B54E99C8B04C64428BA4B75D82F /* Whiteboard.h */,
+				AEB41BE96BBE89FD63F35B9A5BBDB432 /* Base */,
+				11CF2CF96660F590B12A135D1DCA08F6 /* Converter */,
+				52B72F617AA3D7E534E257E599BD3C44 /* Model */,
+				565D27A1932CE838C4191C9D142FF51D /* NativeReplayer */,
+				D895E864E77B6D65425BF88163277652 /* Object */,
+				4757E0EFB8FA783491C5524E459DC9A2 /* Replayer */,
+				FECFCA283555E649F4597EA7E2076E12 /* Resources */,
+				36DAA09FE8567B073F097CC7A89C1FBD /* Room */,
+				373D3F05622FD5EAB96DBE94E55C1D05 /* Support Files */,
+			);
+			path = Whiteboard;
+			sourceTree = "<group>";
+		};
+		31E7D306A87ACA96EC954BA452E504CE /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				DCAC2BC89073F3C71221BC703A9A108A /* Classes */,
+			);
+			path = ios;
+			sourceTree = "<group>";
+		};
+		32003D6219CBC2EEC9BCDFA38C034A0C /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				3D840C7BBA03E7A47C168C95AAAEF4BA /* .. */,
+			);
+			name = ..;
+			path = ../../../../../../ios;
+			sourceTree = "<group>";
+		};
+		36DAA09FE8567B073F097CC7A89C1FBD /* Room */ = {
+			isa = PBXGroup;
+			children = (
+				DFEE0494AC8C149DFAB80221D1BBF3C8 /* WhiteBroadcastState.h */,
+				33932BE70D9BB706F614ACAF6BC66703 /* WhiteBroadcastState.m */,
+				BD3608FD9D20E2FE69256AF3873A0B82 /* WhiteImageInformation.h */,
+				4A45D4E5079DB75A2C433F5E6FEDC427 /* WhiteImageInformation.m */,
+				DB96F36B344B144D351A42F6C84A8331 /* WhiteRoom.h */,
+				6A0F75D224AC0BE89A4C57441D080425 /* WhiteRoom.m */,
+				4B28B6393C4A168D364024F1BF0A3FE3 /* WhiteRoom+Private.h */,
+				B26BC1D65376CA68AC7DD78B4094ED04 /* WhiteRoomCallbacks.h */,
+				B2019183234A437B8932B8C36B7F8E32 /* WhiteRoomCallbacks.m */,
+				077783D62156D5691FBFDABEA3B954DF /* WhiteRoomCallbacks+Private.h */,
+				5EA6846BEBE7D7B4DBC60E08650C2705 /* WhiteRoomConfig.h */,
+				D350AD215ECB8D89832C2DC1ABF1D245 /* WhiteRoomConfig.m */,
+				04873E69B24204BBD20E6AAAC5B7E7B7 /* WhiteRoomState.h */,
+				4DC185CA17D035620588997B5CEF572E /* WhiteRoomState.m */,
+				0AE28D756B4B8E2FA930CC243623C928 /* WhiteSDK+Room.h */,
+				6F144724E326E6C2DF6C98386BF2D97F /* WhiteSDK+Room.m */,
+			);
+			name = Room;
+			sourceTree = "<group>";
+		};
+		373D3F05622FD5EAB96DBE94E55C1D05 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C11AB8319AF346CCB598D0BDA754CE09 /* ResourceBundle-Whiteboard-Whiteboard-Info.plist */,
+				70BF679721071D39CA1377D5E6B189D8 /* Whiteboard-dummy.m */,
+				642BF272E525EFC76B960E03F7FD9645 /* Whiteboard-prefix.pch */,
+				AEAF8D240EFD576AF66907115F24C189 /* Whiteboard.debug.xcconfig */,
+				421D917889CA6286D5A7F4D034D84BFA /* Whiteboard.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Whiteboard";
+			sourceTree = "<group>";
+		};
+		3BC099D208E97F59AB9C96085DB08416 /* example */ = {
+			isa = PBXGroup;
+			children = (
+				9DBFBB58BB981ECE01DBEEEDBBEC7DD8 /* ios */,
+			);
+			path = example;
+			sourceTree = "<group>";
+		};
+		3D840C7BBA03E7A47C168C95AAAEF4BA /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				3BC099D208E97F59AB9C96085DB08416 /* example */,
+			);
+			path = ..;
+			sourceTree = "<group>";
+		};
+		4757E0EFB8FA783491C5524E459DC9A2 /* Replayer */ = {
+			isa = PBXGroup;
+			children = (
+				D2462BF9440F7E7DD22181B68D34B2C4 /* WhitePlayer.h */,
+				3AABEC8D91A6302A3DE200114725C7EA /* WhitePlayer.m */,
+				DB7BAA6D652B84C4CA95CDABD6534C42 /* WhitePlayer+Private.h */,
+				F673B31DE4531D2B14684D1F5A5F6630 /* WhitePlayerConfig.h */,
+				A06054594CC4B30B7D8088B6BAB45821 /* WhitePlayerConfig.m */,
+				4B5848733217FC69C9843175A035849C /* WhitePlayerConsts.h */,
+				F6EB333A8F76FA2283357AA10FF60D18 /* WhitePlayerEvent.h */,
+				C6606A5281B3076A0692D035A3BD2412 /* WhitePlayerEvent.m */,
+				CF0785BEFD64AEEAA1E6A2B982B3D6B5 /* WhitePlayerEvent+Private.h */,
+				5B7E25DE93C3279BAF4D9EFF794E25EE /* WhitePlayerState.h */,
+				5529578B30A208B5AEE245AAA73D1838 /* WhitePlayerState.m */,
+				659071828B9F9EC3292CDAE01CF21896 /* WhitePlayerTimeInfo.h */,
+				B6A56EA5055EB7DD26442F74298A9955 /* WhitePlayerTimeInfo.m */,
+				5C2C8DD06382AE59E60FE5E1534C67F0 /* WhiteSDK+Replayer.h */,
+				0C0F22DE388999EB8A280FD317E23B61 /* WhiteSDK+Replayer.m */,
+			);
+			name = Replayer;
+			sourceTree = "<group>";
+		};
+		4D62DE174579BCD5EECC880BEE6363B0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7221485F463B965F0738B24C79E864C8 /* Flutter.debug.xcconfig */,
+				E31E8358B79E517DC4C42C03710DDB9B /* Flutter.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Pods/Target Support Files/Flutter";
+			sourceTree = "<group>";
+		};
+		52B72F617AA3D7E534E257E599BD3C44 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5663D135DA9800B23E84D263246A85A4 /* WhiteObject.h */,
+				89E8262DF9D8A7424C0EBDEF2043D485 /* WhiteObject.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		550CED507C79DF5B4C699A052A22BEF0 /* Pods-Runner */ = {
+			isa = PBXGroup;
+			children = (
+				29D02F98F621FBA870BB08572DBF7172 /* Pods-Runner-acknowledgements.markdown */,
+				D5BC260794B87AB85799016712139C4D /* Pods-Runner-acknowledgements.plist */,
+				0769263DD910C3C79E304E0CD1CE0049 /* Pods-Runner-dummy.m */,
+				DE53F3C2B63B23A77DD09C3D235D7688 /* Pods-Runner-resources.sh */,
+				9A6D3B1784C82F22825710930DD8BE77 /* Pods-Runner.debug.xcconfig */,
+				9039460E8D3FAD357BF2E7D56AA0D6B2 /* Pods-Runner.profile.xcconfig */,
+				3D40527A090D33E04D34690525F7F739 /* Pods-Runner.release.xcconfig */,
+			);
+			name = "Pods-Runner";
+			path = "Target Support Files/Pods-Runner";
+			sourceTree = "<group>";
+		};
+		565D27A1932CE838C4191C9D142FF51D /* NativeReplayer */ = {
+			isa = PBXGroup;
+			children = (
+				8DB28AF012BA1506EDE5D7E34AB9DB39 /* WhiteCombinePlayer.h */,
+				DD96DB6B4C893FC553650DCDAA778DC6 /* WhiteCombinePlayer.m */,
+				B7A689C59FA43548C574F02EABD28611 /* WhiteSliderView.h */,
+				2B98C7E191FD098DD6FB1337C5D3CFC4 /* WhiteSliderView.m */,
+				EF5CB2469F4387B4CCA520EA67CE669C /* WhiteVideoView.h */,
+				73094626A8FE73EFEE9E4C15E2832683 /* WhiteVideoView.m */,
+			);
+			name = NativeReplayer;
+			sourceTree = "<group>";
+		};
+		67D2A28A439062218B83348747E1DF43 /* YYModel */ = {
+			isa = PBXGroup;
+			children = (
+				8A4DFBA10EB5243122967533394473E4 /* NSObject+YYModel.h */,
+				103C284A0F0DE7F1FF5D1BAEFB564305 /* NSObject+YYModel.m */,
+				A2ED8DE30961F5DB654356C4D0F67AF0 /* YYClassInfo.h */,
+				B69E879DBAF8CF359EDFCEB6CE3F1369 /* YYClassInfo.m */,
+				A8C8DDA5B8C9E4EAD7BB43D9B25E9A93 /* YYModel.h */,
+				115A6B1E15CDDB52EDF4BDBF49BF0D5E /* Support Files */,
+			);
+			path = YYModel;
+			sourceTree = "<group>";
+		};
+		690427177AC271CFE237960EDA0573DD /* flutter_whiteboard */ = {
+			isa = PBXGroup;
+			children = (
+				32003D6219CBC2EEC9BCDFA38C034A0C /* .. */,
+				DC41F6C05F8CFFB6AA35922F3C8C2E8C /* Pod */,
+				8A44DF4220CC59DB2175A501845EAC4D /* Support Files */,
+			);
+			name = flutter_whiteboard;
+			path = ../.symlinks/plugins/flutter_whiteboard/ios;
+			sourceTree = "<group>";
+		};
+		69F29565FCE1982874CB8AC846E3B457 /* plugins */ = {
+			isa = PBXGroup;
+			children = (
+				0B6511388B22C9FC80F0B70AFDB7ECE0 /* flutter_whiteboard */,
+			);
+			path = plugins;
+			sourceTree = "<group>";
+		};
+		6F2A2EF8165275926B54C1764A239A70 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				550CED507C79DF5B4C699A052A22BEF0 /* Pods-Runner */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		85B339728DFAABBA5DE8802501E96A07 /* dsBridge */ = {
+			isa = PBXGroup;
+			children = (
+				335919ACAC505B429EA92C9E6B0821AD /* dsbridge.h */,
+				F16AF5B3847E32379743B6E56B221AE0 /* DSCallInfo.h */,
+				87220ED1606577757F1E243E446001AC /* DSCallInfo.m */,
+				5677BDDD5DAAA02662291A591B764BC0 /* DWKWebView.h */,
+				17A628987B673266DD98A178ED9971D3 /* DWKWebView.m */,
+				0CA49E7D01616C079857982DDE41C34A /* InternalApis.h */,
+				4731263CB09189455ED48CA73F9AE35D /* InternalApis.m */,
+				F9D1A175B4730431C7D2AF6067152243 /* JSBUtil.h */,
+				51A7F19DB50D15B88CCE59A5E5CB8095 /* JSBUtil.m */,
+				9D2B69172A59C04E96DAEB6FD93E78C1 /* Support Files */,
+			);
+			path = dsBridge;
+			sourceTree = "<group>";
+		};
+		8A44DF4220CC59DB2175A501845EAC4D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8BE0AC68D711EADFAA4200313EF8A8FC /* flutter_whiteboard.modulemap */,
+				B226AD19146082F871805412D3EA39C0 /* flutter_whiteboard-dummy.m */,
+				D26CBA60452B4BFAF8BDB2B93C099C84 /* flutter_whiteboard-prefix.pch */,
+				F3FD7648C3C3D1C305A63C478F554EFA /* flutter_whiteboard-umbrella.h */,
+				20FB25D3B307FD381C9B5B0DB9E01C42 /* flutter_whiteboard.debug.xcconfig */,
+				B1E0AEF66083C28EEAC82D28AE8B9A37 /* flutter_whiteboard.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../../../../Pods/Target Support Files/flutter_whiteboard";
+			sourceTree = "<group>";
+		};
+		8E4BBBA8959350E7870D3BF0D9D74CA8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				797D46A7F1534583458B98BF2BB479A7 /* libdsBridge.a */,
+				A8DEE7875725022B8828B5E0E0B8A66C /* libflutter_whiteboard.a */,
+				669E8F25E1897672BDB80B7EB784DA24 /* libPods-Runner.a */,
+				BF07350E583AF349A194294437B0C06E /* libWhiteboard.a */,
+				E460D5B0416D36F66EE8EC89E5D2FA0A /* libYYModel.a */,
+				B43929320E40A048DEF21A95905050F2 /* Whiteboard.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9D2B69172A59C04E96DAEB6FD93E78C1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF346C1BCBB8FBF7D21769FCD2420B3B /* dsBridge-dummy.m */,
+				B4975BE4BAC53889465AE0ADD9722488 /* dsBridge-prefix.pch */,
+				D9C92DCEDC4F59BCCD76A3BDC148E61C /* dsBridge.debug.xcconfig */,
+				3AED2C29F0A9C1AC6BE076E6A322A334 /* dsBridge.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/dsBridge";
+			sourceTree = "<group>";
+		};
+		9DBFBB58BB981ECE01DBEEEDBBEC7DD8 /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				A7CB0F98AB9E5C152285103942E9BD9B /* .symlinks */,
+			);
+			path = ios;
+			sourceTree = "<group>";
+		};
+		A7CB0F98AB9E5C152285103942E9BD9B /* .symlinks */ = {
+			isa = PBXGroup;
+			children = (
+				69F29565FCE1982874CB8AC846E3B457 /* plugins */,
+			);
+			path = .symlinks;
+			sourceTree = "<group>";
+		};
+		AEB41BE96BBE89FD63F35B9A5BBDB432 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				C5F414638F23487219512B45DE6B5863 /* WhiteAudioMixerBridge.h */,
+				66C460133E5C0A41AED893AA0D18CC0D /* WhiteAudioMixerBridge.m */,
+				1A955808391E71A9C6DCCDB6A3506241 /* WhiteBoardView.h */,
+				4B3E6B912480DEF07508C27549D12C85 /* WhiteBoardView.m */,
+				85F0F769398A3500489A23EC1F211457 /* WhiteBoardView+Private.h */,
+				63DD7A276A761EF0BFC4DD9782A63B05 /* WhiteCommonCallbacks.h */,
+				201A31FA011F742495B296155F97FFA5 /* WhiteCommonCallbacks.m */,
+				58EAC6098D8025A3D3D2470313596AED /* WhiteDisplayer.h */,
+				D8B3F799D2D8D7B85F485DFFE1C90C72 /* WhiteDisplayer.m */,
+				E9BA556871E2A203F670315E2A8DB65C /* WhiteDisplayer+Private.h */,
+				D90360DCE8D097F9463B712BF4424453 /* WhiteDisplayerState.h */,
+				E1503CF0F7052173CDB79C32B210D4F0 /* WhiteDisplayerState.m */,
+				1B619C6AC94D726BBF22E69AA0C11EF2 /* WhiteGlobalState.h */,
+				7D57CA1A48FF15819136A990068AD956 /* WhiteGlobalState.m */,
+				F192DB45BB0D481E777DF9C5BB4D4D77 /* WhiteSDK.h */,
+				1267DFE2DC91BC49D57D7230D22B4B3D /* WhiteSDK.m */,
+				C0DA60CD8A8A41D994D59C70FF26E7E1 /* WhiteSDK+Private.h */,
+				F928B36C7001D5EDBEC6BD0C31985E20 /* WhiteSdkConfiguration.h */,
+				96AEE69DCA923584959D3059372B660D /* WhiteSdkConfiguration.m */,
+				D8574BC5A8CC7C8929DE5230D3FD4B4E /* WhiteSdkConfiguration+Private.h */,
+				008475478B846525B53E6855F1765390 /* WhiteWebViewInjection.h */,
+				904793EA4B06DE0B31592B13C3C7DADB /* WhiteWebViewInjection.m */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		B36FDE8999E55458F019F87151F270B4 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0D6286116CAD64E94C2D9DA945E4FC8D /* Flutter */,
+				690427177AC271CFE237960EDA0573DD /* flutter_whiteboard */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				B36FDE8999E55458F019F87151F270B4 /* Development Pods */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				1ABB0931402DFCEA87376F77BBDFE70E /* Pods */,
+				8E4BBBA8959350E7870D3BF0D9D74CA8 /* Products */,
+				6F2A2EF8165275926B54C1764A239A70 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D895E864E77B6D65425BF88163277652 /* Object */ = {
+			isa = PBXGroup;
+			children = (
+				9FC2618FD7F7BD501E4E04B98077208A /* WhiteCameraBound.h */,
+				FAF34CB318977C408758AB1F16023E86 /* WhiteCameraBound.m */,
+				1617AB9606B97A37CAE510F82640FC98 /* WhiteCameraConfig.h */,
+				0AFB9465241AA67ACA9EC75E8B38A45D /* WhiteCameraConfig.m */,
+				E3A973DFCDB2578D5BFFB93C63992E20 /* WhiteCameraState.h */,
+				7203AD9858C958CA79B7BE7625A7FD5D /* WhiteCameraState.m */,
+				C1BAE6F522EE3E2BC8141E22782276B2 /* WhiteConsts.h */,
+				B4C0B31ECFD06481AB5AD05270A5BBE6 /* WhiteConsts.m */,
+				E0C0269CAA5FC8D9362C3A9CE5A46790 /* WhiteEvent.h */,
+				33ED2FC05763448E4BBB652BE6A4C233 /* WhiteEvent.m */,
+				FCE331C1ECE90A1A5C41BBBC448F2587 /* WhiteFontFace.h */,
+				FF17B50B0A6314F5EF9D00CE7FE0FDDB /* WhiteFontFace.m */,
+				AABCC0641C8A5713FAC2F68E57E98773 /* WhiteMemberInformation.h */,
+				69D591A8465924CB6BB819B1DA65A9D7 /* WhiteMemberInformation.m */,
+				14719B301F92DB41C49AF90FB814A17E /* WhiteMemberState.h */,
+				8B0B04850BB6A9B280853BCE55CFEF3F /* WhiteMemberState.m */,
+				62B8F79AA107762CCAD8FEA5024334CC /* WhitePanEvent.h */,
+				D2DB9FA84D7D0FAA1F61E4056A0FB3E3 /* WhitePanEvent.m */,
+				1B27C4656573C3D6DC92924BC11A3C4B /* WhitePptPage.h */,
+				E849EF1CA4A851140E0D06F6E78BFF8A /* WhitePptPage.m */,
+				EB055B176729B336A4FA6E9438B767A7 /* WhiteRectangleConfig.h */,
+				8B9A6E165D048C35FCA242E04B81EB2B /* WhiteRectangleConfig.m */,
+				7EE9756BF1A089FA151E022FF1223A4F /* WhiteRoomMember.h */,
+				F14910A9A0C9F0617EF68C948626D60C /* WhiteRoomMember.m */,
+				E54B887FBF32C08058DF1A9C4D897D52 /* WhiteScene.h */,
+				F70D92BA77117A9D474770496603E753 /* WhiteScene.m */,
+				71A0D66B34515E2B2C687E87FC8BB796 /* WhiteSceneState.h */,
+				25800541D1B15E6FC99A5E26AE5ABB30 /* WhiteSceneState.m */,
+			);
+			name = Object;
+			sourceTree = "<group>";
+		};
+		DC41F6C05F8CFFB6AA35922F3C8C2E8C /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				01D2E77E9159662F527732F5B7D50031 /* flutter_whiteboard.podspec */,
+				FBFB2BAEAF11CEBE882443A7811A8878 /* LICENSE */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		DCAC2BC89073F3C71221BC703A9A108A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A49881677D00CAEB51206D1B2FD5D507 /* FlutterWhiteboardPlugin.h */,
+				5A14CD6BAFC6C2563DA5AEC5B7122EB7 /* FlutterWhiteboardPlugin.m */,
+				5DB911B426A8149D0029896B /* textViewController.h */,
+				5DB911B526A8149D0029896B /* textViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		FECFCA283555E649F4597EA7E2076E12 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				92ACDF72451DC7C8290BADD74F2E75BE /* 83c92a0 */,
+				97A8F79E9D5DE6ED1B3971D92D94478D /* index.html */,
+				3D0A849973D9BF9012D9711753159F56 /* main.1413e9a0.css */,
+				1238D27278B1E7FC91C158BD805D58FD /* main.80ad2f9c.js */,
+				9299E92F565E8BA98E9BF162964A23D8 /* runtime.36e3f0da.js */,
+				F6D7D5CF8833D42106D425865DC97B80 /* vendor.96d82295.css */,
+				9794A87625DE8E7338A2ED4B1D3331EA /* vendor.c6be1bb5.js */,
+				E928831E573ECB8BEE0A8406F5E34DEA /* web-sdk.c6ce11e8.js */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		377D0D22D6E7A13CCCBFA218D98DF62C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F3098851F981620DB18BCD2E88F9E20 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91A40339538C950AAA6FFE2059533185 /* flutter_whiteboard-umbrella.h in Headers */,
+				EB4B2F94006DB6DFE754B3D08DD7240A /* FlutterWhiteboardPlugin.h in Headers */,
+				5DB911B626A8149D0029896B /* textViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		524C75C8C63696B6D686FA1FFBE9D119 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F19A9017331FFB58EC18D644BA570457 /* NSObject+YYModel.h in Headers */,
+				AE53CAFAAE658E3ECAB72EB5B3EC1075 /* YYClassInfo.h in Headers */,
+				6D5B34350E7E2B3F9EA83BE98823588E /* YYModel.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61830B8F9BF354D5F49D9AE8AFCCD3E3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DB8F772FB94361C219982B3ED7B7CDD /* dsbridge.h in Headers */,
+				BAF4F2E224C8D8B9B6B35245A8D8B370 /* DSCallInfo.h in Headers */,
+				9EFA31261CD67B33FB2EAEF335F707FC /* DWKWebView.h in Headers */,
+				0F2AC307F4CD07CBDC82F985A02791A1 /* InternalApis.h in Headers */,
+				11F669BAA548C417D836BF43BCB86651 /* JSBUtil.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DE4745D5903ACA94FB522A1F7EE5ED1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32AC2D2D85A35FAAEE8477FF9554617D /* WhiteAudioMixerBridge.h in Headers */,
+				60B4E9DDD4EC123719D1D1A26BFB72C9 /* Whiteboard.h in Headers */,
+				54AB35085253580D606F74A77C9A8CF5 /* WhiteBoardView+Private.h in Headers */,
+				9D924FEEB6E85C4CE0EF6B2ACC1A23BA /* WhiteBoardView.h in Headers */,
+				7B023FC1E722988A5EE55A6F2A859963 /* WhiteBroadcastState.h in Headers */,
+				76EFBE5953C040CD48C6A421E6399092 /* WhiteCameraBound.h in Headers */,
+				458ACD5A559F6A6D5C5C146BD8EA1E5D /* WhiteCameraConfig.h in Headers */,
+				2047EFF3E451FDC0E9ED8827F4AA7C38 /* WhiteCameraState.h in Headers */,
+				093E24BF4D0A00029DC4589320024A99 /* WhiteCombinePlayer.h in Headers */,
+				FFCB5C59C4DD016895535B10EC1ED974 /* WhiteCommonCallbacks.h in Headers */,
+				3679662FE9105B4F8C03B0B1D58D1D1E /* WhiteConsts.h in Headers */,
+				F65AC4CDFAFBF37DE25D5C6F4253166C /* WhiteConversionInfo.h in Headers */,
+				E8CB607F85AC7F921EEADAE78C248A59 /* WhiteConverter.h in Headers */,
+				EE5005B80BF22C1F458F4228866E2CAC /* WhiteDisplayer+Private.h in Headers */,
+				48E29C4318FD45F6C9B3E7CAFF14EB3E /* WhiteDisplayer.h in Headers */,
+				EA6F74AA075C34B9690781EE106C089F /* WhiteDisplayerState.h in Headers */,
+				073FEFDAFBEEDF71B6BED8C5D4249353 /* WhiteEvent.h in Headers */,
+				9F5A101CA3A1B5D5AF7E3808AF9DB310 /* WhiteFontFace.h in Headers */,
+				DE5DE8DF92F77FA7A74E7B1DCB95B044 /* WhiteGlobalState.h in Headers */,
+				3A87AEB4BBF9A7BA43DF9A0223A6549F /* WhiteImageInformation.h in Headers */,
+				184E9A180C8DA3C9C3BF51B5B30639DF /* WhiteMemberInformation.h in Headers */,
+				AD438A0BB954B13CFB35A2FC7D6AEF99 /* WhiteMemberState.h in Headers */,
+				892BF466B4DCB7E184EE387EA7B7C62B /* WhiteObject.h in Headers */,
+				030EAA20649BF6FF426CA43FF110BE51 /* WhitePanEvent.h in Headers */,
+				B7A0DBC630112FD3AB1C24FFB55BE8B7 /* WhitePlayer+Private.h in Headers */,
+				A8E9E3B6448DD50F07635287F73A84F4 /* WhitePlayer.h in Headers */,
+				D380405D33DA92435288D12E6492206F /* WhitePlayerConfig.h in Headers */,
+				FFC0A36B098066F257EBCE2A0858AB16 /* WhitePlayerConsts.h in Headers */,
+				F88DCD9349F95672428C789B3C10118B /* WhitePlayerEvent+Private.h in Headers */,
+				FF1842A2CB4D2C19BE908C74147A8B36 /* WhitePlayerEvent.h in Headers */,
+				EAE42F64130FC322206A4FDFCAE96B39 /* WhitePlayerState.h in Headers */,
+				D643A5F75CCE69071B17C7682B193500 /* WhitePlayerTimeInfo.h in Headers */,
+				55DBAABA0991F35DB380EC93B6DD1CA6 /* WhitePptPage.h in Headers */,
+				4E9D77005F2765510D638CC61766AC6B /* WhiteRectangleConfig.h in Headers */,
+				69D3A50FE22F49A9CDA756378E055D1F /* WhiteRoom+Private.h in Headers */,
+				AD0BAE8398BDD3A760C50FD97FC1106A /* WhiteRoom.h in Headers */,
+				7CDFF4FA3AF92DEF5F1274719E1100B8 /* WhiteRoomCallbacks+Private.h in Headers */,
+				CD30207E611A75881449CC38D2690364 /* WhiteRoomCallbacks.h in Headers */,
+				FC219DD80B710572061C0478F8E88FEE /* WhiteRoomConfig.h in Headers */,
+				7619AC94C37975FBA9056076C4002EBF /* WhiteRoomMember.h in Headers */,
+				C31F381C4EA759BA2902E5114CB1FBC0 /* WhiteRoomState.h in Headers */,
+				D02304668CD930E5FC2572A3DE7E5647 /* WhiteScene.h in Headers */,
+				69093F2F24A294BB386BB876007150FE /* WhiteSceneState.h in Headers */,
+				DB467A8C4FA7324EBAB66A6D858204A3 /* WhiteSDK+Private.h in Headers */,
+				0CEA16B423D6275DAAF7A91BB2E2FC1D /* WhiteSDK+Replayer.h in Headers */,
+				C8A50A56C43F14DA83AC0DD4AC444F45 /* WhiteSDK+Room.h in Headers */,
+				6FA41591080FA98E20BC0211AB189B8B /* WhiteSDK.h in Headers */,
+				8534C979DA98E9AE4C5CC2366388D96B /* WhiteSdkConfiguration+Private.h in Headers */,
+				E93E333CF32D5EB67D7D776F23AF5996 /* WhiteSdkConfiguration.h in Headers */,
+				91E4A641F7BC3844403F101880D1D20A /* WhiteSliderView.h in Headers */,
+				2F1151ACB9FC357148EB9A14496C4D59 /* WhiteVideoView.h in Headers */,
+				C31F9BB1DEE8313CEA083F4EE6BDEA6F /* WhiteWebViewInjection.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0EB9E06B4A4636CA9288D815FC9DBFC5 /* Whiteboard-Whiteboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39AE173527867EF0ADF1FA8EE76E3A02 /* Build configuration list for PBXNativeTarget "Whiteboard-Whiteboard" */;
+			buildPhases = (
+				A468D09BBCE90C42DA78D63501F367DC /* Sources */,
+				CF7B80C58926B9D2F20876A9033FE9D2 /* Frameworks */,
+				9FF22D377BDD3E822E63B9154EB143AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Whiteboard-Whiteboard";
+			productName = "Whiteboard-Whiteboard";
+			productReference = B43929320E40A048DEF21A95905050F2 /* Whiteboard.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		1A6F633BD0A4B9EF892715BEB76AC948 /* dsBridge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 527F827607FC9904F22CE9E17AC2D8D4 /* Build configuration list for PBXNativeTarget "dsBridge" */;
+			buildPhases = (
+				61830B8F9BF354D5F49D9AE8AFCCD3E3 /* Headers */,
+				E1376D0DC644F65756D373FB098AECD0 /* Sources */,
+				6E54AC9F1738D13081E00331BC30995D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = dsBridge;
+			productName = dsBridge;
+			productReference = 797D46A7F1534583458B98BF2BB479A7 /* libdsBridge.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		43A5D519FC12ED0F166AE099C4D79F09 /* flutter_whiteboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3F024903CC96F6447B23CE4BF707557 /* Build configuration list for PBXNativeTarget "flutter_whiteboard" */;
+			buildPhases = (
+				4F3098851F981620DB18BCD2E88F9E20 /* Headers */,
+				67A7E70682E7647E15118FD20180CB71 /* Sources */,
+				3DAFE2EB1124B36DDB3D66C2AD9C28B4 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				37FF6E597060B1C823DCA8EEE52E7EDF /* PBXTargetDependency */,
+				3B36E3157D3A7F8BE01211332D52E70B /* PBXTargetDependency */,
+			);
+			name = flutter_whiteboard;
+			productName = flutter_whiteboard;
+			productReference = A8DEE7875725022B8828B5E0E0B8A66C /* libflutter_whiteboard.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		84B44807A12996D487A4A591A481D6A0 /* YYModel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67E688F11525AF63F93BE73051D6CC28 /* Build configuration list for PBXNativeTarget "YYModel" */;
+			buildPhases = (
+				524C75C8C63696B6D686FA1FFBE9D119 /* Headers */,
+				7BBBA9B18911831FA970D99657D4D0D1 /* Sources */,
+				82058CCB4009AA0A36B90B93D06E64E9 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YYModel;
+			productName = YYModel;
+			productReference = E460D5B0416D36F66EE8EC89E5D2FA0A /* libYYModel.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		887E769F555AF76F514A7276E2BA1CB8 /* Whiteboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 453FD518E4B516AC3BE34425066D8C25 /* Build configuration list for PBXNativeTarget "Whiteboard" */;
+			buildPhases = (
+				8DE4745D5903ACA94FB522A1F7EE5ED1 /* Headers */,
+				2D16FBD27CD131BB7F6020339123F33B /* Sources */,
+				A9FED403DBC8CE01958F87CFB9428D1B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B94ACB1A32F5387C8B2CADBA8B58958A /* PBXTargetDependency */,
+				6B7AB288DFFA2E6AC7A4DC54B8331D90 /* PBXTargetDependency */,
+				AB8175E418E5BE97DC0CF1FE622DEB67 /* PBXTargetDependency */,
+			);
+			name = Whiteboard;
+			productName = Whiteboard;
+			productReference = BF07350E583AF349A194294437B0C06E /* libWhiteboard.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		8B74B458B450D74B75744B87BD747314 /* Pods-Runner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C87F5DEB9BE17BC81C8C1591DA576C1 /* Build configuration list for PBXNativeTarget "Pods-Runner" */;
+			buildPhases = (
+				377D0D22D6E7A13CCCBFA218D98DF62C /* Headers */,
+				8C77A0FC2E74ED080E2E4F72B957DD14 /* Sources */,
+				CFEEC63F1939759449A1841D88B738CD /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E0E92B8C3EE61E73694B9790DE6FE44D /* PBXTargetDependency */,
+				8B05B11EE6FF21F907839F3FE6729107 /* PBXTargetDependency */,
+				9106444578C36F132CEF88A3E214DDE8 /* PBXTargetDependency */,
+				B6C7EAE1E6C99FA1E39416FB4EEB6E34 /* PBXTargetDependency */,
+				351FB7FE80F330B5CDDF9011ACA09A94 /* PBXTargetDependency */,
+			);
+			name = "Pods-Runner";
+			productName = "Pods-Runner";
+			productReference = 669E8F25E1897672BDB80B7EB784DA24 /* libPods-Runner.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 8E4BBBA8959350E7870D3BF0D9D74CA8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A6F633BD0A4B9EF892715BEB76AC948 /* dsBridge */,
+				1EFDDC32A34D56D411E640A81DCD9E73 /* Flutter */,
+				43A5D519FC12ED0F166AE099C4D79F09 /* flutter_whiteboard */,
+				8B74B458B450D74B75744B87BD747314 /* Pods-Runner */,
+				887E769F555AF76F514A7276E2BA1CB8 /* Whiteboard */,
+				0EB9E06B4A4636CA9288D815FC9DBFC5 /* Whiteboard-Whiteboard */,
+				84B44807A12996D487A4A591A481D6A0 /* YYModel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9FF22D377BDD3E822E63B9154EB143AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28E75F9A4B3455D09102919E1A022363 /* 83c92a0 in Resources */,
+				C91BAE058E628D823D9209E9FD39CB39 /* index.html in Resources */,
+				3462A6EB9B8502BA698CE6EA04D0E379 /* main.1413e9a0.css in Resources */,
+				B47D22E1D205CC41200B7340B165ACC4 /* main.80ad2f9c.js in Resources */,
+				1F48F53DD3FBDDD828289B338705260B /* runtime.36e3f0da.js in Resources */,
+				D7064FD312B378ADDDDB577779A92F44 /* vendor.96d82295.css in Resources */,
+				C6A2838EA59FDBCC4AFA4DFDB0FD442D /* vendor.c6be1bb5.js in Resources */,
+				95794A16C8E240A0EF294B024855D0DE /* web-sdk.c6ce11e8.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2D16FBD27CD131BB7F6020339123F33B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				840BE203927BEA6265A4B1AF458C4808 /* WhiteAudioMixerBridge.m in Sources */,
+				D2237089509D71CC4B6C74B8D786E8CF /* Whiteboard-dummy.m in Sources */,
+				699F64A46B1D3F2807A41F269E2BE6C7 /* WhiteBoardView.m in Sources */,
+				5A594935DA1EA16A624400DF46EF7720 /* WhiteBroadcastState.m in Sources */,
+				21F6C6C5200CE5D07689DFC3D538415A /* WhiteCameraBound.m in Sources */,
+				BA21A6FBA5966F289A40B11EB6AFB91D /* WhiteCameraConfig.m in Sources */,
+				CF1C10B549BCF54CE288314E5A5B5224 /* WhiteCameraState.m in Sources */,
+				F509FDA104BF24DA254B7C9EDFEAD4C6 /* WhiteCombinePlayer.m in Sources */,
+				9FE4FA547CB57F838C1D76BF53684867 /* WhiteCommonCallbacks.m in Sources */,
+				37BDA8B8053D27301DC99F41B605BEC4 /* WhiteConsts.m in Sources */,
+				C95AECA52147D28E642D4935D3D6BAF5 /* WhiteConversionInfo.m in Sources */,
+				3DB51DCACFFF612A58BF17E7067B5876 /* WhiteConverter.m in Sources */,
+				86C8EF8BBF79A8ED2078EA2F2222D3C7 /* WhiteDisplayer.m in Sources */,
+				CED7AFF216E9E29462B7DA613808D237 /* WhiteDisplayerState.m in Sources */,
+				629068E50FA690A51DD6FF0B6C35A04E /* WhiteEvent.m in Sources */,
+				CF385D47687D75CF96D5401281A88240 /* WhiteFontFace.m in Sources */,
+				9B47C2ECCDCE7189A931E5D0C90AEB61 /* WhiteGlobalState.m in Sources */,
+				AF5AC374B45FAE6EB3379CDF6D6128EE /* WhiteImageInformation.m in Sources */,
+				09C174BF7B313A939317A8ECD0834C56 /* WhiteMemberInformation.m in Sources */,
+				3370D48E2FB138B726DB426C426FC9B3 /* WhiteMemberState.m in Sources */,
+				8E6C421A609D180A524F77AE811AFA7A /* WhiteObject.m in Sources */,
+				D12CEFD96385A8BCC277FC28E588A8DE /* WhitePanEvent.m in Sources */,
+				BD4C714B5759D7DD05FEAA49F99B8799 /* WhitePlayer.m in Sources */,
+				058A71CC4059BA81FF7D1AB59923C97C /* WhitePlayerConfig.m in Sources */,
+				FDA219DC5A7FEC1759A29D89CB3029B2 /* WhitePlayerEvent.m in Sources */,
+				354AF8D4E6FEDFF5A1E4E29438D62AF3 /* WhitePlayerState.m in Sources */,
+				2F8B30239B1F16EB12B08BC0B3B85DBB /* WhitePlayerTimeInfo.m in Sources */,
+				30E668EB478A0CD181584A1426BFB8BA /* WhitePptPage.m in Sources */,
+				2D61F88E89477DB5C576EA01B964B0D7 /* WhiteRectangleConfig.m in Sources */,
+				5E5978974CDDD40269FD09AD779A4409 /* WhiteRoom.m in Sources */,
+				200022265250BFF69569E53F97A3D2C4 /* WhiteRoomCallbacks.m in Sources */,
+				4A893F13DE3A6632E8733B4B5DF8D025 /* WhiteRoomConfig.m in Sources */,
+				4264095CA022381EECA9A622DC07666F /* WhiteRoomMember.m in Sources */,
+				E580CDF041CF1A92B2736873FB9B08E8 /* WhiteRoomState.m in Sources */,
+				ACFA78623664B10161FAD9BD6FA1E472 /* WhiteScene.m in Sources */,
+				AE3853725E165FA49742611017C6D338 /* WhiteSceneState.m in Sources */,
+				AB94D0A706CC3FDA69AB905E56A1F5E1 /* WhiteSDK+Replayer.m in Sources */,
+				94C3B18673A69B2798178EF80DFB7A2F /* WhiteSDK+Room.m in Sources */,
+				2C9F0157DEBC1877E04433644E0D3DDD /* WhiteSDK.m in Sources */,
+				F02721074ACC38F1AC36617D0CE6E596 /* WhiteSdkConfiguration.m in Sources */,
+				38C4152F55820AE227938E43A608E322 /* WhiteSliderView.m in Sources */,
+				B0B0DB11F7812666E8352F44AF1CA90E /* WhiteVideoView.m in Sources */,
+				D70357A34883DE10811F507E48706A1D /* WhiteWebViewInjection.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67A7E70682E7647E15118FD20180CB71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DB911B726A8149D0029896B /* textViewController.m in Sources */,
+				18954BBCCDA84707E1D9E1598679E2E2 /* flutter_whiteboard-dummy.m in Sources */,
+				9D8002A38AD5692EC112C73B733AA075 /* FlutterWhiteboardPlugin.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BBBA9B18911831FA970D99657D4D0D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3EEE724BA6A8E08DEE864416A5F1465 /* NSObject+YYModel.m in Sources */,
+				C752CA696B113A52FD719862F6A90DD4 /* YYClassInfo.m in Sources */,
+				687B10A83AA0BA8CA3D3BE0BBFFF33FC /* YYModel-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C77A0FC2E74ED080E2E4F72B957DD14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				442C28917641E38548011CB4F895BCA0 /* Pods-Runner-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A468D09BBCE90C42DA78D63501F367DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1376D0DC644F65756D373FB098AECD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DD56FDEA181C442F26D633A83A74D51 /* dsBridge-dummy.m in Sources */,
+				88FBFC0C79088627E96C213C27F1E883 /* DSCallInfo.m in Sources */,
+				C96EA3C372B46BA8FD8BFF0DCCC7B6A7 /* DWKWebView.m in Sources */,
+				54653D9B3CC19483E1B0F7B90B32F475 /* InternalApis.m in Sources */,
+				5F982ADB18D81DD63F54335B28FFCDE0 /* JSBUtil.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		351FB7FE80F330B5CDDF9011ACA09A94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = flutter_whiteboard;
+			target = 43A5D519FC12ED0F166AE099C4D79F09 /* flutter_whiteboard */;
+			targetProxy = 6F72685DA64CACDA35E291F6AA0D3F6F /* PBXContainerItemProxy */;
+		};
+		37FF6E597060B1C823DCA8EEE52E7EDF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Flutter;
+			target = 1EFDDC32A34D56D411E640A81DCD9E73 /* Flutter */;
+			targetProxy = E47BAF791FA1D81EF4F1ECC69D3BF3B6 /* PBXContainerItemProxy */;
+		};
+		3B36E3157D3A7F8BE01211332D52E70B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Whiteboard;
+			target = 887E769F555AF76F514A7276E2BA1CB8 /* Whiteboard */;
+			targetProxy = 59D2B3C36504CA18316980CE7BDB3601 /* PBXContainerItemProxy */;
+		};
+		6B7AB288DFFA2E6AC7A4DC54B8331D90 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YYModel;
+			target = 84B44807A12996D487A4A591A481D6A0 /* YYModel */;
+			targetProxy = 3CFDECB1304D7630BC07059E00580FB1 /* PBXContainerItemProxy */;
+		};
+		8B05B11EE6FF21F907839F3FE6729107 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Whiteboard;
+			target = 887E769F555AF76F514A7276E2BA1CB8 /* Whiteboard */;
+			targetProxy = 8135096C01869700E04F365D3B5769EE /* PBXContainerItemProxy */;
+		};
+		9106444578C36F132CEF88A3E214DDE8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YYModel;
+			target = 84B44807A12996D487A4A591A481D6A0 /* YYModel */;
+			targetProxy = C5D682A72887ABDAD6B0F3DD4F81AEA7 /* PBXContainerItemProxy */;
+		};
+		AB8175E418E5BE97DC0CF1FE622DEB67 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = dsBridge;
+			target = 1A6F633BD0A4B9EF892715BEB76AC948 /* dsBridge */;
+			targetProxy = 330526503A5A13754C8FE683D4B4F54C /* PBXContainerItemProxy */;
+		};
+		B6C7EAE1E6C99FA1E39416FB4EEB6E34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = dsBridge;
+			target = 1A6F633BD0A4B9EF892715BEB76AC948 /* dsBridge */;
+			targetProxy = A58A3C5DBEA76235A55A0748C2F17138 /* PBXContainerItemProxy */;
+		};
+		B94ACB1A32F5387C8B2CADBA8B58958A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Whiteboard-Whiteboard";
+			target = 0EB9E06B4A4636CA9288D815FC9DBFC5 /* Whiteboard-Whiteboard */;
+			targetProxy = 81E3D243534AF14A5DC40C62E0FA0526 /* PBXContainerItemProxy */;
+		};
+		E0E92B8C3EE61E73694B9790DE6FE44D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Flutter;
+			target = 1EFDDC32A34D56D411E640A81DCD9E73 /* Flutter */;
+			targetProxy = 463D6FD4B2056248F115AB1E1D147AA2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		052006C11EC8013903D2C0678D452186 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E31E8358B79E517DC4C42C03710DDB9B /* Flutter.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0C03CFF2E13C1BFAFE62C1E5C32AB4A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20FB25D3B307FD381C9B5B0DB9E01C42 /* flutter_whiteboard.debug.xcconfig */;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "arm64 i386";
+				"FRAMEWORK_SEARCH_PATHS[sdk=iphoneos*]" = (
+					"\"/Users/weifucheng/flutter/bin/cache/artifacts/engine/ios/Flutter.xcframework/ios-armv7_arm64\"",
+					"$(inherited)",
+				);
+				"FRAMEWORK_SEARCH_PATHS[sdk=iphonesimulator*]" = (
+					"\"/Users/weifucheng/flutter/bin/cache/artifacts/engine/ios/Flutter.xcframework/ios-x86_64-simulator\"",
+					"$(inherited)",
+				);
+				GCC_PREFIX_HEADER = "Target Support Files/flutter_whiteboard/flutter_whiteboard-prefix.pch";
+				MODULEMAP_FILE = Headers/Public/flutter_whiteboard/flutter_whiteboard.modulemap;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					Flutter,
+				);
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = flutter_whiteboard;
+				PRODUCT_NAME = flutter_whiteboard;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0D05734802452789A07E368C599D4FC9 /* Profile */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 421D917889CA6286D5A7F4D034D84BFA /* Whiteboard.release.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Whiteboard";
+				IBSC_MODULE = Whiteboard;
+				INFOPLIST_FILE = "Target Support Files/Whiteboard/ResourceBundle-Whiteboard-Whiteboard-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = Whiteboard;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Profile;
+		};
+		0D3A93A1D434FDC7E18E450114317E65 /* Profile */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E31E8358B79E517DC4C42C03710DDB9B /* Flutter.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Profile;
+		};
+		0F52851162543523668D8075B539B0D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9C92DCEDC4F59BCCD76A3BDC148E61C /* dsBridge.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/dsBridge/dsBridge-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = dsBridge;
+				PRODUCT_NAME = dsBridge;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		12A02AD16D49DFFC9E3D16ABE6E83B24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 421D917889CA6286D5A7F4D034D84BFA /* Whiteboard.release.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Whiteboard";
+				IBSC_MODULE = Whiteboard;
+				INFOPLIST_FILE = "Target Support Files/Whiteboard/ResourceBundle-Whiteboard-Whiteboard-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = Whiteboard;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		16F89062FBBB80D5646CDE4D4C2791F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCDC137B33A626C23EE59D91FCC82D64 /* YYModel.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/YYModel/YYModel-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = YYModel;
+				PRODUCT_NAME = YYModel;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		231EBBED21EBFA9E197E0B25B7A2AFDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7221485F463B965F0738B24C79E864C8 /* Flutter.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		2F742C2A5700E24A70A9642EDCFF9505 /* Profile */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9039460E8D3FAD357BF2E7D56AA0D6B2 /* Pods-Runner.profile.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "arm64 i386";
+				"FRAMEWORK_SEARCH_PATHS[sdk=iphoneos*]" = (
+					"\"/Users/weifucheng/flutter/bin/cache/artifacts/engine/ios-release/Flutter.xcframework/ios-armv7_arm64\"",
+					"$(inherited)",
+				);
+				"FRAMEWORK_SEARCH_PATHS[sdk=iphonesimulator*]" = (
+					"\"/Users/weifucheng/flutter/bin/cache/artifacts/engine/ios-release/Flutter.xcframework/ios-x86_64-simulator\"",
+					"$(inherited)",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					Flutter,
+				);
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Profile;
+		};
+		499B5578233124F273FA052FBE35B82D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 421D917889CA6286D5A7F4D034D84BFA /* Whiteboard.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/Whiteboard/Whiteboard-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = Whiteboard;
+				PRODUCT_NAME = Whiteboard;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4AC17E5E5FB9F2FFF05E88EFD49D95C8 /* Profile */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_PROFILE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Profile;
+		};
+		4F35E84438F2AC736D81DDB4043D8E50 /* Profile */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 421D917889CA6286D5A7F4D034D84BFA /* Whiteboard.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/Whiteboard/Whiteboard-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = Whiteboard;
+				PRODUCT_NAME = Whiteboard;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Profile;
+		};
+		5FB8871B7A104F0DEB4DFF0E6C516BAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF2D53F6EF8EF7670EFEA8FA75EB3498 /* YYModel.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/YYModel/YYModel-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = YYModel;
+				PRODUCT_NAME = YYModel;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6276DFCC52084DE3FEA027CDD6418E36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A6D3B1784C82F22825710930DD8BE77 /* Pods-Runner.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "arm64 i386";
+				"FRAMEWORK_SEARCH_PATHS[sdk=iphoneos*]" = (
+					"\"/Users/weifucheng/flutter/bin/cache/artifacts/engine/ios/Flutter.xcframework/ios-armv7_arm64\"",
+					"$(inherited)",
+				);
+				"FRAMEWORK_SEARCH_PATHS[sdk=iphonesimulator*]" = (
+					"\"/Users/weifucheng/flutter/bin/cache/artifacts/engine/ios/Flutter.xcframework/ios-x86_64-simulator\"",
+					"$(inherited)",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					Flutter,
+				);
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		730B2C81D3DF729F415C9181895F13BD /* Profile */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AED2C29F0A9C1AC6BE076E6A322A334 /* dsBridge.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/dsBridge/dsBridge-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = dsBridge;
+				PRODUCT_NAME = dsBridge;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Profile;
+		};
+		A0B35B101EBB849591413422447177C5 /* Profile */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1E0AEF66083C28EEAC82D28AE8B9A37 /* flutter_whiteboard.release.xcconfig */;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "arm64 i386";
+				"FRAMEWORK_SEARCH_PATHS[sdk=iphoneos*]" = (
+					"\"/Users/weifucheng/flutter/bin/cache/artifacts/engine/ios-release/Flutter.xcframework/ios-armv7_arm64\"",
+					"$(inherited)",
+				);
+				"FRAMEWORK_SEARCH_PATHS[sdk=iphonesimulator*]" = (
+					"\"/Users/weifucheng/flutter/bin/cache/artifacts/engine/ios-release/Flutter.xcframework/ios-x86_64-simulator\"",
+					"$(inherited)",
+				);
+				GCC_PREFIX_HEADER = "Target Support Files/flutter_whiteboard/flutter_whiteboard-prefix.pch";
+				MODULEMAP_FILE = Headers/Public/flutter_whiteboard/flutter_whiteboard.modulemap;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					Flutter,
+				);
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = flutter_whiteboard;
+				PRODUCT_NAME = flutter_whiteboard;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Profile;
+		};
+		A7949DECE901897BDCE2B9D3BED5758E /* Profile */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF2D53F6EF8EF7670EFEA8FA75EB3498 /* YYModel.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/YYModel/YYModel-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = YYModel;
+				PRODUCT_NAME = YYModel;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Profile;
+		};
+		C919172CE9CA78AD046041D207838D72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1E0AEF66083C28EEAC82D28AE8B9A37 /* flutter_whiteboard.release.xcconfig */;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "arm64 i386";
+				"FRAMEWORK_SEARCH_PATHS[sdk=iphoneos*]" = (
+					"\"/Users/weifucheng/flutter/bin/cache/artifacts/engine/ios-release/Flutter.xcframework/ios-armv7_arm64\"",
+					"$(inherited)",
+				);
+				"FRAMEWORK_SEARCH_PATHS[sdk=iphonesimulator*]" = (
+					"\"/Users/weifucheng/flutter/bin/cache/artifacts/engine/ios-release/Flutter.xcframework/ios-x86_64-simulator\"",
+					"$(inherited)",
+				);
+				GCC_PREFIX_HEADER = "Target Support Files/flutter_whiteboard/flutter_whiteboard-prefix.pch";
+				MODULEMAP_FILE = Headers/Public/flutter_whiteboard/flutter_whiteboard.modulemap;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					Flutter,
+				);
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = flutter_whiteboard;
+				PRODUCT_NAME = flutter_whiteboard;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D18DF34699457AD1E85C860D15788E07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEAF8D240EFD576AF66907115F24C189 /* Whiteboard.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/Whiteboard/Whiteboard-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = Whiteboard;
+				PRODUCT_NAME = Whiteboard;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DAD38F9146F04ABC4E2A0717627A6469 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D40527A090D33E04D34690525F7F739 /* Pods-Runner.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "arm64 i386";
+				"FRAMEWORK_SEARCH_PATHS[sdk=iphoneos*]" = (
+					"\"/Users/weifucheng/flutter/bin/cache/artifacts/engine/ios-release/Flutter.xcframework/ios-armv7_arm64\"",
+					"$(inherited)",
+				);
+				"FRAMEWORK_SEARCH_PATHS[sdk=iphonesimulator*]" = (
+					"\"/Users/weifucheng/flutter/bin/cache/artifacts/engine/ios-release/Flutter.xcframework/ios-x86_64-simulator\"",
+					"$(inherited)",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					Flutter,
+				);
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E7CEACA4E1EC9118120869D9E0E04BA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AED2C29F0A9C1AC6BE076E6A322A334 /* dsBridge.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/dsBridge/dsBridge-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = dsBridge;
+				PRODUCT_NAME = dsBridge;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF775170D956244EF978E4F920F4F5D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEAF8D240EFD576AF66907115F24C189 /* Whiteboard.debug.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Whiteboard";
+				IBSC_MODULE = Whiteboard;
+				INFOPLIST_FILE = "Target Support Files/Whiteboard/ResourceBundle-Whiteboard-Whiteboard-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = Whiteboard;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		39AE173527867EF0ADF1FA8EE76E3A02 /* Build configuration list for PBXNativeTarget "Whiteboard-Whiteboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF775170D956244EF978E4F920F4F5D0 /* Debug */,
+				0D05734802452789A07E368C599D4FC9 /* Profile */,
+				12A02AD16D49DFFC9E3D16ABE6E83B24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C87F5DEB9BE17BC81C8C1591DA576C1 /* Build configuration list for PBXNativeTarget "Pods-Runner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6276DFCC52084DE3FEA027CDD6418E36 /* Debug */,
+				2F742C2A5700E24A70A9642EDCFF9505 /* Profile */,
+				DAD38F9146F04ABC4E2A0717627A6469 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		453FD518E4B516AC3BE34425066D8C25 /* Build configuration list for PBXNativeTarget "Whiteboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D18DF34699457AD1E85C860D15788E07 /* Debug */,
+				4F35E84438F2AC736D81DDB4043D8E50 /* Profile */,
+				499B5578233124F273FA052FBE35B82D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				4AC17E5E5FB9F2FFF05E88EFD49D95C8 /* Profile */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		527F827607FC9904F22CE9E17AC2D8D4 /* Build configuration list for PBXNativeTarget "dsBridge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F52851162543523668D8075B539B0D1 /* Debug */,
+				730B2C81D3DF729F415C9181895F13BD /* Profile */,
+				E7CEACA4E1EC9118120869D9E0E04BA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67E688F11525AF63F93BE73051D6CC28 /* Build configuration list for PBXNativeTarget "YYModel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16F89062FBBB80D5646CDE4D4C2791F8 /* Debug */,
+				A7949DECE901897BDCE2B9D3BED5758E /* Profile */,
+				5FB8871B7A104F0DEB4DFF0E6C516BAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94078A06C17E946ADC1F2C06726219E5 /* Build configuration list for PBXAggregateTarget "Flutter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				231EBBED21EBFA9E197E0B25B7A2AFDE /* Debug */,
+				0D3A93A1D434FDC7E18E450114317E65 /* Profile */,
+				052006C11EC8013903D2C0678D452186 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3F024903CC96F6447B23CE4BF707557 /* Build configuration list for PBXNativeTarget "flutter_whiteboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C03CFF2E13C1BFAFE62C1E5C32AB4A1 /* Debug */,
+				A0B35B101EBB849591413422447177C5 /* Profile */,
+				C919172CE9CA78AD046041D207838D72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -1,0 +1,6 @@
+module flutter_whiteboard {
+  umbrella header "flutter_whiteboard-umbrella.h"
+
+  export *
+  module * { export * }
+}
