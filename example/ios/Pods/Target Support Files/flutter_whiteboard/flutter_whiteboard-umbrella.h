@@ -11,6 +11,8 @@
 #endif
 
 #import "FlutterWhiteboardPlugin.h"
+#import "WhiteBoardCon.h"
+#import "WhiteBoardFactory.h"
 
 FOUNDATION_EXPORT double flutter_whiteboardVersionNumber;
 FOUNDATION_EXPORT const unsigned char flutter_whiteboardVersionString[];

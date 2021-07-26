@@ -3,9 +3,10 @@ import 'dart:async';
 
 import 'package:flutter/services.dart';
 import 'package:flutter_whiteboard/flutter_whiteboard.dart';
+import 'package:flutter_whiteboard_example/secondView.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp(MaterialApp(home: MyApp()));
 }
 
 class MyApp extends StatefulWidget {
@@ -46,23 +47,19 @@ class _MyAppState extends State<MyApp> {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      home: Scaffold(
-        appBar: AppBar(
-          title: const Text('Plugin example app'),
-        ),
-        body: Center(
-          child: Column(
-            children: [
-              Text('Running on: $_platformVersion\n'),
-              GestureDetector(
-                onTap: () {
-                  FlutterWhiteboard.pushView();
-                },
-                child: Text('push'),
-              ),
-            ],
-          ),
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text('Plugin example app'),
+      ),
+      body: Center(
+        child: GestureDetector(
+          onTap: () {
+            Navigator.push(
+              context,
+              new MaterialPageRoute(builder: (context) => new SecondView()),
+            );
+          },
+          child: Text('进入白板房间'),
         ),
       ),
     );
